@@ -1,4 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     margin: 0px;
     padding: 0px;
+}
+
+.main-background {
+    background: url(/img/first-header-and-section/first-background.png) no-repeat;
+    background-size: cover;
+    height: 760px;
+}
+
+.alignt-items-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 40px 30px 40px;
+    min-width: 1065px;
+}
+
+.font-style-header-name {
+    font-family: 'Dosis';
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.font-style-header-name:hover {
+    text-decoration: none;
+}
+
+.nav-li {
+    display: flex;
+    justify-content: space-around;
+    max-width: 558px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Dosis';
+    font-weight: 700;
+}
+.nav-link:hover {
+    color:rgb(243, 212, 39);
+}
+
+.align-items-nav {
+    margin-left: 450px;
+    margin-top: 25px;
+}
+
+.bigText {
+    font-size: 120px;
+    align-items: center;
+    font-family: Leckerli One;
+    font-weight: 400;
+    color: white;
+    margin-top: 135px;
+    margin-left: 335px;   
+}
+
+.header-p {
+    font-size: 20px; 
+    font-family: 'Roboto'; 
+    font-weight: 700; 
+    color: white; 
+    max-width: 479px;
+    margin-left: 485px;
+    margin-top: 18px;
 }
