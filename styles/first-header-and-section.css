@@ -15,7 +15,7 @@
 .alignt-items-header {
     display: flex;
     justify-content: space-around;
-    padding: 50px 40px 30px 40px;
+    padding: 50px 40px 30px 80px;
     min-width: 1065px;
 }
 
@@ -47,18 +47,18 @@
 }
 
 .align-items-nav {
-    margin-left: 450px;
+    margin-left: 470px;
     margin-top: 25px;
 }
 
 .bigText {
-    font-size: 120px;
+    font-size: 110px;
     align-items: center;
     font-family: Leckerli One;
     font-weight: 400;
     color: white;
-    margin-top: 135px;
-    margin-left: 335px;   
+    margin-top: 150px;
+    margin-left: 390px;   
 }
 
 .header-p {
@@ -67,6 +67,67 @@
     font-weight: 700; 
     color: white; 
     max-width: 479px;
-    margin-left: 485px;
+    margin-left: 525px;
     margin-top: 18px;
+}
+
+.first-section-align {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-us-styles-and-title {
+    display: block;
+    padding-bottom: 18px;
+    font-size: 48px;
+    font-family: "Dosis";
+    font-weight: 700;
+}
+.hr-style {
+    width: 31px; 
+    border-top: 6px dotted rgb(36,184, 241);
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1169px;
+    margin-left: 220px;
+}
+
+.about-us-p {
+    width: 550px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    color:rgb(110, 110, 110);
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+
+.about-us-learn-more {
+    padding-left: -50px;
+}
+
+.about-us-zebra {
+    margin-right: -100px;
+}
+
+.aligh-about-learn-more {
+
+}
+
+.button-learn-more {
+    border-style: solid;
+    border-width: 1px;
+    padding: 18px 18px 18px 18px;
+    cursor: pointer;
+    background-color: rgb(36, 184, 241);
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto';
+    ;
 }
