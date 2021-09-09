@@ -43,7 +43,7 @@
     font-weight: 700;
 }
 .nav-link:hover {
-    color:rgb(243, 212, 39);
+    color:#f1c324;
 }
 
 .align-items-nav {
@@ -113,10 +113,6 @@
     margin-right: -100px;
 }
 
-.aligh-about-learn-more {
-
-}
-
 .button-learn-more {
     border-style: solid;
     border-width: 1px;
@@ -129,5 +125,8 @@
     text-align: center;
     font-size: 12px;
     font-family: 'Roboto';
-    ;
+}
+
+.button-learn-more:hover {
+    background-color: #f1c324;
 }
