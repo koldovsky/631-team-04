@@ -129,4 +129,5 @@
 
 .button-learn-more:hover {
     background-color: #f1c324;
+    transition: 300ms;
 }
