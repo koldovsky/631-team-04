@@ -50,17 +50,17 @@
     color:#f1c324;
 }
 
-.align-items-nav {
+.big-text-align {
+    text-align: center;
 }
 
-.bigText {
+.big-text {
     font-size: 110px;
     align-items: center;
     font-family: Leckerli One;
     font-weight: 400;
     color: white;
-    margin-top: 150px;
-    margin-left: 390px;   
+    margin-top: 150px; 
 }
 
 .header-p {
@@ -68,8 +68,6 @@
     font-family: 'Roboto'; 
     font-weight: 700; 
     color: white; 
-    max-width: 479px;
-    margin-left: 525px;
     margin-top: 18px;
 }
 
