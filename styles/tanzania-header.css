@@ -11,3 +11,14 @@
     font-weight: 500;
     font-size: 19px;
 }
+.header-icon{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 40px 30px 80px;
+    min-width: 1065px;
+}
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
