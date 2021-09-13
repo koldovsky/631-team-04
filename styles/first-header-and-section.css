@@ -91,13 +91,14 @@
 }
 
 .container {
-    margin: 0 auto;
+    margin: 0 auto auto 100px;
     max-width: 1420px;
     max-height: 658px;
+
 }
 
 .about-us-p {
-    width: 550px;
+    width: 565px;
     line-height: 25px;
     margin-bottom: 50px;
     color:rgb(110, 110, 110);
@@ -105,7 +106,9 @@
     font-size: 17px;
 }
 
-.about-us-zebra {
+.img-zebra {
+    max-width: 90%;
+    height: auto;
 }
 
 .button-learn-more {
