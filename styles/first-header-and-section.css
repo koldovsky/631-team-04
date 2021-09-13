@@ -8,9 +8,9 @@
 }
 
 .main-background {
-    background: url(../img/first-header-and-section/first-background.png) no-repeat;
+    background: url(../img/first-header-and-section/first-background.png);
     background-size: cover;
-    height: 760px;
+    height: 100vh;
 }
 
 .alignt-items-header {
@@ -30,11 +30,14 @@
 .font-style-header-name:hover {
     text-decoration: none;
 }
-
-.nav-li {
+.nav {
     display: flex;
-    justify-content: space-around;
-    max-width: 558px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-li{
+    margin: 20px;
 }
 
 .nav-link {
@@ -47,19 +50,17 @@
     color:#f1c324;
 }
 
-.align-items-nav {
-    margin-left: 470px;
-    margin-top: 25px;
+.big-text-align {
+    text-align: center;
 }
 
-.bigText {
+.big-text {
     font-size: 110px;
     align-items: center;
     font-family: Leckerli One;
     font-weight: 400;
     color: white;
-    margin-top: 150px;
-    margin-left: 390px;   
+    margin-top: 150px; 
 }
 
 .header-p {
@@ -67,8 +68,6 @@
     font-family: 'Roboto'; 
     font-weight: 700; 
     color: white; 
-    max-width: 479px;
-    margin-left: 525px;
     margin-top: 18px;
 }
 
@@ -92,13 +91,14 @@
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 1169px;
-    margin-left: 220px;
+    margin: 0 auto auto 100px;
+    max-width: 1420px;
+    max-height: 658px;
+
 }
 
 .about-us-p {
-    width: 550px;
+    width: 565px;
     line-height: 25px;
     margin-bottom: 50px;
     color:rgb(110, 110, 110);
@@ -106,8 +106,9 @@
     font-size: 17px;
 }
 
-.about-us-zebra {
-    margin-right: -100px;
+.img-zebra {
+    max-width: 90%;
+    height: auto;
 }
 
 .button-learn-more {
