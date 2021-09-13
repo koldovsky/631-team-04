@@ -142,16 +142,15 @@
 
 .safari-go_on-reasons-block-wrapper {
     background: url('../img/reasons-to-go-on-safari-background.jpg') fixed;
-    background-size: cover;
-    min-height: fit-content;
-    min-width: fit-content;
     padding-bottom: 90px;
 }
 .reasons-section-wrapper{
     margin: 0 20px 0px 20px;
 }
 .reasons-section-header {
-    padding: 90px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin: 0px auto;
 }
 .reasons-section-header-text {
     font-size: 48px;
@@ -161,17 +160,21 @@
     line-height: 1.18;
     letter-spacing: -.021em;
     display: block;
+    margin: 0px auto;
     text-align: center;
+}
+.reasons-section-content-columns {
+    margin: 0px auto;
 }
 .experience-column {
     display: inline-block;
     background-color: rgba(20, 20, 20, 0.75);
     text-align: center;
-    position: relative;
-    max-width: 190px;
-    min-width: 130px;
-    margin: 0 10px 30px 10px;
-    padding: 0 20px 0 20px;
+    margin: 30px 20px;
+    padding: 20px;
+    min-width: 150px;
+    max-width: 210px;
+    min-height: 300px;
 }
 .experience-column-icon-element {
     display: block;
@@ -188,8 +191,6 @@
     line-height: 1.31;
     font-family: Dosis,sans-serif;
     font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: 0;
     text-align: center;
     color: #fff;
@@ -199,14 +200,12 @@
     font-size: 17px;
     line-height: 1.56;
     font-family: Roboto,sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: 0;
     color: #6e6e6e;
     text-transform: none;
     word-wrap: break-word;
     margin-bottom: 30px;
+    word-wrap: break-word;
 }
 
 
@@ -214,11 +213,11 @@
     display: inline-block;
     background-color: rgba(20, 20, 20, 0.75);
     text-align: center;
-    position: relative;
-    max-width: 190px;
-    min-width: 130px;
-    margin: 0 10px 30px 10px;
-    padding: 0 20px 0 20px;
+    margin: 30px 20px;
+    padding: 20px;
+    min-width: 150px;
+    max-width: 210px;
+    min-height: 300px;
 }
 .escape-column-icon-element {
     display: block;
@@ -235,8 +234,6 @@
     line-height: 1.31;
     font-family: Dosis,sans-serif;
     font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: 0;
     text-align: center;
     color: #fff;
@@ -246,14 +243,12 @@
     font-size: 17px;
     line-height: 1.56;
     font-family: Roboto,sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: 0;
     color: #6e6e6e;
     text-transform: none;
     word-wrap: break-word;
     margin-bottom: 30px;
+    word-wrap: break-word;
 }
 
 
@@ -261,11 +256,11 @@
     display: inline-block;
     background-color: rgba(20, 20, 20, 0.75);
     text-align: center;
-    position: relative;
-    max-width: 190px;
-    min-width: 130px;
-    margin: 0 10px 30px 10px;
-    padding: 0 20px 0 20px;
+    margin: 30px 20px;
+    padding: 20px;
+    min-width: 150px;
+    max-width: 210px;
+    min-height: 300px;
 }
 .see-column-icon-element {
     display: block;
@@ -282,8 +277,6 @@
     line-height: 1.31;
     font-family: Dosis,sans-serif;
     font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: 0;
     text-align: center;
     color: #fff;
@@ -293,14 +286,12 @@
     font-size: 17px;
     line-height: 1.56;
     font-family: Roboto,sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: 0;
     color: #6e6e6e;
     text-transform: none;
     word-wrap: break-word;
     margin-bottom: 30px;
+    word-wrap: break-word;
 }
 
 
@@ -308,11 +299,11 @@
     display: inline-block;
     background-color: rgba(20, 20, 20, 0.75);
     text-align: center;
-    position: relative;
-    max-width: 190px;
-    min-width: 130px;
-    margin: 0 10px 30px 10px;
-    padding: 0 20px 0 20px;
+    margin: 30px 20px;
+    padding: 20px;
+    min-width: 150px;
+    max-width: 210px;
+    min-height: 300px;
 }
 .stay-column-icon-element {
     display: block;
@@ -329,8 +320,6 @@
     line-height: 1.31;
     font-family: Dosis,sans-serif;
     font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: 0;
     text-align: center;
     color: #fff;
@@ -340,14 +329,12 @@
     font-size: 17px;
     line-height: 1.56;
     font-family: Roboto,sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: 0;
     color: #6e6e6e;
     text-transform: none;
     word-wrap: break-word;
     margin-bottom: 30px;
+    word-wrap: break-word;
 }
 
 
@@ -355,11 +342,11 @@
     display: inline-block;
     background-color: rgba(20, 20, 20, 0.75);
     text-align: center;
-    position: relative;
-    max-width: 190px;
-    min-width: 130px;
-    margin: 0 10px 30px 10px;
-    padding: 0 20px 0 20px;
+    margin: 30px 20px;
+    padding: 20px;
+    min-width: 150px;
+    max-width: 210px;
+    min-height: 300px;
 }
 .travel-column-icon-element {
     display: block;
@@ -376,8 +363,6 @@
     line-height: 1.31;
     font-family: Dosis,sans-serif;
     font-weight: 700;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: 0;
     text-align: center;
     color: #fff;
@@ -387,14 +372,12 @@
     font-size: 17px;
     line-height: 1.56;
     font-family: Roboto,sans-serif;
-    font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: 0;
     color: #6e6e6e;
     text-transform: none;
     word-wrap: break-word;
     margin-bottom: 30px;
+    word-wrap: break-word;
 }
 
 .safari-go_on-ready-block-wrapper {
@@ -429,15 +412,187 @@
     padding-left: 50px;
 }
 
+.quote-request-button {
+    width: 150px;
+    height: 50px;
+    background-color: #24b8f1;
+    border: none;
+    display: block;
+    margin: 0px auto;
+}
+.quote-request-button:hover {
+    background-color: #f1c41f;
+}
 .safari-go_on-ready-button-group {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    max-width: 50%;
+}
+.request-button-content {
     font-size: 12px!important;
     line-height: 1em!important;
     letter-spacing: 0!important;
     font-family: Roboto,sans-serif;
     font-weight: 700;
     text-align: center;
+    color: #fff;
     text-transform: uppercase;
-    max-width: 50%;
-    padding-left: 50px;
-    padding: 30px 0 90px 0;
+}
+
+
+
+
+
+
+
+
+
+.meet-our-team-block-wrapper {
+background:rgb(246, 248, 250);
+max-height: 700px;
+}
+
+.meet-our-team-header{
+    font-size: 48px;
+    color: #141414;
+    line-height: 1.18;
+    font-family: Dosis,sans-serif;
+    font-weight: 700;
+    letter-spacing: -.021em;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.carousel-item-helena {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+}
+.helena-farse-h2 {
+    font-size: 25px;
+    line-height: 1.31;
+    font-family: Dosis,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #141414;
+    text-align: center;
+    margin: 20px 0px;
+}
+.helena-about{
+    font-size: 14px;
+    line-height: 1.56;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    display: inline-block;
+    padding-left: 9px;
+    margin: 0px auto 15px auto;
+}
+
+
+
+
+
+
+
+
+.carousel-item-dan {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+}
+.dan-pitts-h2 {
+    font-size: 25px;
+    line-height: 1.31;
+    font-family: Dosis,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #141414;
+    text-align: center;
+    margin: 20px 0px;
+}
+.dan-about{
+    font-size: 14px;
+    line-height: 1.56;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    display: inline-block;
+    padding-left: 20px;
+    margin: 0px auto 15px auto;
+}
+
+
+
+
+
+
+.carousel-item-tomas {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+}
+.tomas-willens-h2 {
+    font-size: 25px;
+    line-height: 1.31;
+    font-family: Dosis,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #141414;
+    text-align: center;
+    margin: 20px 0px;
+}
+.tomas-about{
+    font-size: 14px;
+    line-height: 1.56;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    display: inline-block;
+    padding-left: 40px;
+    margin: 0px auto 15px auto;
+}
+
+
+
+
+
+
+
+
+.carousel-item-lucy {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+}
+.lucy-madins-h2 {
+    font-size: 25px;
+    line-height: 1.31;
+    font-family: Dosis,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #141414;
+    text-align: center;
+    margin: 20px 0px;
+}
+.lucy-about{
+    font-size: 14px;
+    line-height: 1.56;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    display: inline-block;
+    padding-left: 40px;
+    margin: 0px auto 15px auto;
+}
+
+
+
+.social-icons-list {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    padding-left: 15px;
 }
