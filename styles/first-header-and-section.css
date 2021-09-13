@@ -8,9 +8,9 @@
 }
 
 .main-background {
-    background: url(../img/first-header-and-section/first-background.png) no-repeat;
+    background: url(../img/first-header-and-section/first-background.png);
     background-size: cover;
-    height: 760px;
+    height: 100vh;
 }
 
 .alignt-items-header {
@@ -30,11 +30,14 @@
 .font-style-header-name:hover {
     text-decoration: none;
 }
-
-.nav-li {
+.nav {
     display: flex;
-    justify-content: space-around;
-    max-width: 558px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-li{
+    margin: 20px;
 }
 
 .nav-link {
@@ -48,8 +51,6 @@
 }
 
 .align-items-nav {
-    margin-left: 470px;
-    margin-top: 25px;
 }
 
 .bigText {
@@ -93,8 +94,8 @@
 
 .container {
     margin: 0 auto;
-    max-width: 1169px;
-    margin-left: 220px;
+    max-width: 1420px;
+    max-height: 658px;
 }
 
 .about-us-p {
@@ -107,7 +108,6 @@
 }
 
 .about-us-zebra {
-    margin-right: -100px;
 }
 
 .button-learn-more {
