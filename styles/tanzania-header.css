@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.tanzania-tour{
+    background: url("../img/tansania-header/tanzania-background.webp");
+}
+.header-name{
+    font-family: 'Dosis';
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+}
