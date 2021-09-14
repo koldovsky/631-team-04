@@ -1,6 +1,4 @@
-.white-text {
-    color: white;
-}
+
 
 header .banner-snake {
     background-image: url(/img/img-itinerary/snake-black-fon.webp);
@@ -20,5 +18,10 @@ header .banner {
   .yelloy-text {
     color: yellow;
     color: yellow;
-}
+  }
+
+  .white-text{
+    color: white;
+  }
+
 
