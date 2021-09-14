@@ -275,16 +275,18 @@
     text-decoration: none;
 }
 
+
+
+
 .meet-our-team-block-wrapper {
     background:rgb(246, 248, 250);
-    max-height: 700px;
     padding: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
     border: 1px solid #000;
 }
-.meet-our-team-block-wrapper img {
-    width: 100%;
-}
-
 .meet-our-team-header{
     font-size: 48px;
     color: #141414;
@@ -306,11 +308,13 @@
 }
 
 .team-members-carousel-item-generic {
-    display: inline-block;
-    max-width: 250px;
+    max-width: 350px;
     margin: 20px;
     box-sizing: border-box;
     border: 1px solid #000;
+}
+.team-members-carousel-item-generic img {
+    width: 100%;
 }
 .team-members-carousel-h2-style {
     font-size: 25px;
@@ -326,11 +330,10 @@
     font-size: 14px;
     line-height: 1.56;
     font-family: Roboto,sans-serif;
-    font-weight: 400;
     word-wrap: break-word;
-    display: inline-block;
-    padding-left: 9px;
     margin: 0px auto 15px auto;
+    text-align: center;
+    border: 1px solid #000;
 }
 
 .team-members-social-icons-container {
