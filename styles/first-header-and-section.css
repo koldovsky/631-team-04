@@ -168,7 +168,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid #000;
 }
 .generic-column {
     background-color: rgba(20, 20, 20, 0.75);
@@ -285,7 +284,6 @@
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
-    border: 1px solid #000;
 }
 .meet-our-team-header{
     font-size: 48px;
@@ -304,14 +302,12 @@
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
-    border: 1px solid #000;
 }
 
 .team-members-carousel-item-generic {
     max-width: 350px;
     margin: 20px;
     box-sizing: border-box;
-    border: 1px solid #000;
 }
 .team-members-carousel-item-generic img {
     width: 100%;
@@ -333,7 +329,6 @@
     word-wrap: break-word;
     margin: 0px auto 15px auto;
     text-align: center;
-    border: 1px solid #000;
 }
 
 .team-members-social-icons-container {
@@ -341,7 +336,6 @@
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
-    border: 1px solid #000;
 }
 
 
