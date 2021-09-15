@@ -141,7 +141,7 @@
 
 
 .safari-go_on-reasons-block-wrapper {
-    background: url('../img/reasons-to-go-on-safari-background.jpg') fixed;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../img/reasons-to-go-on-safari-background.jpg') fixed;
     padding-bottom: 90px;
 }
 .reasons-section-wrapper{
