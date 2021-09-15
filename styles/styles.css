@@ -167,7 +167,41 @@ footer .social-links a {
     background-color: black;
 }
 
-#our-tours {
+.our-tours-carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.block-our-tours div{
+    padding: 10px;
+}
+
+div.block-our-tours div a {
+    display: block;
+    margin: 20px 0 20px 0;
+    width: fit-content;
+}
+
+div.block-our-tours div a:hover {
+    color: black;
+    font-size: 10.8px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    padding: 15px 17px 15px 17px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    margin: 20px 0 20px 0;
+    width: fit-content;
+}
+
+h2#tours {
+    display: block;
     font-size: 41px;
     color: #f1c324;
     font-family: Dosis;
@@ -213,23 +247,15 @@ footer .social-links a {
     padding: 15px 17px 15px 17px;
 
 }
-
-.block-our-tours a:hover {
-    color: black;
-    font-size: 10.8px;
-    font-family: Roboto;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    margin: 15px;
-    padding: 15px 17px 15px 17px;
-    background-color: rgb(255, 255, 255);
-    text-decoration: none;
-}
 /* our tours section */
 /* real africa section */
+div.block-want-to-see-real-africa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1400px;
+}
+
 .contact-form-want-to-see-real-africa{
     background-color: rgb(255, 255, 255);
     padding: 40px;
@@ -276,7 +302,13 @@ footer .social-links a {
     background-image: url(../img/img-additional-services/add-services-background-texture.png)
 }
 
-#additional-services{
+.block-additional-services-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#services{
     color: rgb(20, 20, 20);
     font-family: Dosis;
     font-size: 41px;

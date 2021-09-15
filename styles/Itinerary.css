@@ -1,0 +1,27 @@
+
+
+header .banner-snake {
+    background-image: url(/img/img-itinerary/snake-black-fon.webp);
+    min-height: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+header .banner {
+    background-image: url(/img/img-itinerary/mountains-fon.webp);
+    min-height: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+  .yelloy-text {
+    color: yellow;
+    color: yellow;
+  }
+
+  .white-text{
+    color: white;
+  }
+
+
