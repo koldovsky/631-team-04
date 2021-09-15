@@ -69,7 +69,7 @@
     margin-left: 120px; 
     background-color: rgba(255, 255, 255, 0.09);
     padding: 50px 50px 50px 50px;
-
+    max-height: 400px;
    
 }
 
@@ -90,7 +90,7 @@
 }
 
 .contacts td {
-    color: rgba(255, 255, 255, 0.09);
+    color:#6e6e6e;
     font-size: 17px;
     font-family: Roboto, sans-serif;
     padding: 20px 20px 20px 20px;
@@ -112,10 +112,11 @@
 /* footer page 1 */
 footer {
     background-color: rgb(247, 249, 251);
+    
 }
 footer div.logo {
     display: block;
-    background-color: transparent!important;
+    background-color: transparent;
     margin: auto;
     text-align: center;
 
@@ -127,15 +128,17 @@ footer p {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+    margin-top: 30px;
 }
 
+footer .inner-container {
+    padding: 120px 120px 120px 0px; 
+}
 footer .jump-links {
     text-decoration: none;
     text-align: center;
     padding: 20px 20px 20px 20px;
-    color: #141414;
-    font-size: 16px;
-
+   
 }
 
 footer .jump-links a {
@@ -143,24 +146,42 @@ footer .jump-links a {
     text-align: center;
     padding: 20px 10px 10px 20px;
     color: #141414;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
 
 }
 
-footer .social-links {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+
+footer .rights-reserved {
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px;
+    font-size: 16px;
 
 }
-/* Footer is in progress
-footer .social-links a {
-    display: block;
-    max-width: 10px;
-    max-height: 10px;
+
+footer .rights-reserved .p1{
+    padding: 0 15px;
+
 }
-*/
+
+footer .footer-img {
+    display: block;
+    width: 100%;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+footer .social-links img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
 
 /* our tours section */
 .block-our-tours, .block-want-to-see-real-africa {
