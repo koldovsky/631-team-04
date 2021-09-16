@@ -4,9 +4,7 @@ header {
     font-family: 'Dosis', sans-serif;
     background-image: url(../img/tansania-header/tanzania-background.webp);
     background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+   
 
 }
 .head-line {
