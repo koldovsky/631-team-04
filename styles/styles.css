@@ -8,6 +8,7 @@
  text-decoration: none;
  --header-color: #f1c324;
  --p-color: #fff;
+ --blue-color: rgb(36,184, 241);
 }
 
 .our-customers-say {
@@ -24,6 +25,7 @@
     color: var(--p-color);
     padding: 25px 25px;
     margin: 0 25px;
+    line-height: 1.5;
 }
 
 .our-customers-say h2 {
@@ -55,6 +57,7 @@
 .our-customers-say .text {
     background-color: rgba(255, 255, 255, 0.07);
     text-align: center;
+    margin: 0;
 }
 
 .customer-say-img {
@@ -86,11 +89,12 @@
     font-weight: 700;
     padding-bottom: 20px;
 }
-.contacts .dots {
+.contacts div.dots {
     width: 40px; 
     border-top: 6px dotted rgb(255, 255, 255);
     padding-bottom: 20px;
     text-align: left;
+    margin-left: 0;
 }
 .contacts h3 {
     color: var(--header-color);
@@ -143,7 +147,7 @@ footer p {
 }
 
 footer .inner-container {
-    padding: 120px 120px 120px 0px; 
+    padding: 120px 120px 0px 120px; 
 }
 footer .jump-links {
     text-decoration: none;
@@ -162,21 +166,17 @@ footer .jump-links a {
 
 }
 
+footer .jump-links a:hover {
+    color: var(--blue-color);
+}
 
 footer .rights-reserved {
     display: flex;
     justify-content: center;
     padding: 15px 15px;
     font-size: 16px;
+    max-width: 300px;
 
-}
-
-footer .rights-reserved .p1{
-    padding: 0 10px;
-}
-
-footer .rights-reserved .p2{
-    padding: 0 10px;
 }
 
 footer .footer-img {
@@ -188,6 +188,7 @@ footer .social-links {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+    max-width: 200px;
 }
 
 footer .social-links img {
@@ -290,7 +291,7 @@ div.block-want-to-see-real-africa{
     justify-content: space-between;
     max-width: 1400px;
 }
-/* V. added code here*/
+/* V added code here*/
 .block-want-to-see-real-africa .image-tiger {
     max-width: 100%;
     display: block;
