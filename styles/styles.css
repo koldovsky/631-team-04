@@ -290,7 +290,11 @@ div.block-want-to-see-real-africa{
     justify-content: space-between;
     max-width: 1400px;
 }
-
+/* V. added code here*/
+.block-want-to-see-real-africa .image-tiger {
+    max-width: 100%;
+    display: block;
+}
 .contact-form-want-to-see-real-africa{
     background-color: rgb(255, 255, 255);
     padding: 40px;

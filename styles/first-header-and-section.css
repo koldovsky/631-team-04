@@ -6,6 +6,9 @@
 * {
     margin: 0;
     padding: 0px;
+    /* V. added code here */
+    max-width: 1440px;
+    margin: auto;
 }
 
 .main-background {
@@ -91,12 +94,11 @@
     margin-bottom: 20px;
 }
 
-.container {
-    margin: 0 auto auto 100px;
+ /*.container {
+    /*margin: 0 auto auto 100px;
     max-width: 1420px;
     max-height: 658px;
-
-}
+}*/
 
 .about-us-p {
     width: 565px;
@@ -108,8 +110,12 @@
 }
 
 .img-zebra {
+/* V. added code here
     max-width: 90%;
-    height: auto;
+    height: auto;*/
+    max-width: 100%;
+    display: block;
+
 }
 
 .button-learn-more {
