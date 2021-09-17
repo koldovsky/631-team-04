@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 * {
     margin: 0;
     padding: 0px;
 }
 header {
     font-family: 'Dosis', sans-serif;
-    background-image: url(../img/tansania-header/tanzania-background.webp);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgb(0, 0, 0)), url(../img/tansania-header/tanzania-background.webp);
+    background-size: cover;  
 }
 .head-line {
     display: flex;
     justify-content: space-around;
-    padding: 50px 40px 30px 80px;
+    padding: 40px 40px 30px 90px;
     color:white;
     font-size: 19px;
     font-family: Dosis,sans-serif;
@@ -32,7 +36,7 @@ nav{
 .animal-runs {
     display: flex;
     justify-content: center;
-    margin-top: 110px;
+    margin-top: 90px;
     margin-bottom: 70px;
 }  
 .a-runs {
@@ -49,10 +53,22 @@ h1 {
     text-align: center;
 }
 .tanzania-text {
-    display: flex;  
+    width: 1200px; 
+    margin-left: 350px;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.7;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
 }
-
-
-
-
-
+.info-section {
+    background-color:linear-gradient(rgba(0,0,0,0.2), rgb(14, 14, 14)),;
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
