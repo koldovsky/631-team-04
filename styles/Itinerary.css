@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap);
 
 .baner {
 background-image: url(../img/img-itinerary/snake-black-fon.webp);
@@ -9,13 +10,35 @@ background-size: cover;
   background-size: cover;
 }
 
-  .yelloy-text {
+  .yellow-text {
     color: yellow;
     color: yellow;
+    font-family: Dosis, serif;
+    font-size: 30px;
   }
 
   .white-text{
     color: white;
+  }
+  .itinerary{
+    font-size: 50px;
+    text-align: center;
+    font-family: Dosis, serif;
+    color: white;
+    
+  }
+  .cost{
+    text-align: center;
+  }
+
+  .text{
+    text-align: center;
+    color: white;
+    font-family: Dosis, serif;
+  }
+  .dote{
+    border-top: 6px dotted rgb(255, 255, 255)
+    
   }
 
 
