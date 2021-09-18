@@ -17,7 +17,7 @@
     height: 100vh;
 }
 
-.alignt-items-header {
+.align-items-header {
     display: flex;
     justify-content: space-around;
     padding: 50px 40px 30px 80px;
