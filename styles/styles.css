@@ -66,15 +66,6 @@
 
 }
 
-@media (max-width: 800px) {
-    .our-customers-say div.card-container {
-        display: flex; 
-        flex-direction: column;
-
-    }
-
-}
-
 /* contacts section */
 .contacts {
     background-color: black;
@@ -132,15 +123,7 @@
     width: 100%; 
 
 }
-@media (max-width: 1000px) {
-    .contacts {
-        display: flex; 
-        flex-direction:column;
-        padding-right: 80px;
-        
-    }
 
-}
 /* footer page 1 */
 footer {
     background-color: rgb(247, 249, 251);
@@ -355,21 +338,58 @@ div.block-want-to-see-real-africa{
 }
 /* real africa section */
 /* additional services */
+.dots-decorative{
+    border-top: 6px dotted rgb(36, 184, 241);
+    width: 40px;
+    margin-top: 10px;
+}
 .block-additional-services{
-    background-image: url(../img/img-additional-services/add-services-background-texture.png)
+    background-image: url(../img/img-additional-services/add-services-background-texture.png);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.block-additional-services-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.block-additional-services-container {
+margin: 40px 24px;
 }
+
+@media (min-width: 800px) { 
+    .block-additional-services-container {
+        margin: 40px 24px;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;
+        }
+}
+
+@media (min-width: 1000px) { 
+    .block-additional-services-container {
+        margin: 40px 24px;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+}
+
+.block-additional-services-item {
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.block-additional-services-item img{
+    display: block;
+    width: 100%;
+}
+
 
 #services{
     color: rgb(20, 20, 20);
     font-family: Dosis;
     font-size: 41px;
     font-weight: 700;
+    text-align: center;
 }
 
 .additional-services-list{
@@ -377,6 +397,7 @@ div.block-want-to-see-real-africa{
     font-family: Dosis;
     font-size: 23px;
     font-weight: 700;
+    margin-top: 20px;  
 }
 
 .additional-services-list-description{
@@ -384,5 +405,7 @@ div.block-want-to-see-real-africa{
     font-family: Roboto;
     font-size: 17px;
     font-weight: 400;
+    width: 100%;
+    margin-top: 20px;
 }
 /* additional services */
