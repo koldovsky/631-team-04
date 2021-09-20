@@ -6,13 +6,21 @@
 * {
     margin: 0;
     padding: 0px;
+<<<<<<< HEAD
+=======
     margin: auto;
+>>>>>>> 5d892e38860cffd843b741e977525950bc81bb92
     --main-color: white;
     --nav-header-and-hover-color: #f1c324; 
     --hr-section-and-bckgr-color: rgb(36,184, 241);
     --main-grey-color: rgb(110, 110, 110);
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    /*max-height: 662px;*/
+}
 
 .main-background {
     background: url(../img/first-header-and-section/first-background.png);
@@ -103,12 +111,6 @@
 
 .align-about-learn-more {
     margin-left: 100px;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1440px;
-    /*max-height: 662px;*/
 }
 
 .about-us-p {
@@ -264,19 +266,10 @@
     height: 50px;
     background-color: #24b8f1;
     border: none;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0px auto;
-}
-.quote-request-button:hover {
-    background-color: #f1c41f;
-}
-.safari-go_on-ready-button-group {
-    padding-top: 30px;
-    padding-left: 40px;
-    padding-bottom: 90px;
-    max-width: 50%;
-}
-.request-button-content {
     font-size: 12px!important;
     line-height: 1em!important;
     letter-spacing: 0!important;
@@ -287,7 +280,20 @@
     text-transform: uppercase;
     text-decoration: none;
 }
-
+.quote-request-button:hover {
+    background-color: #f1c41f;
+}
+.safari-go_on-ready-button-group {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    max-width: 50%;
+}
+/*
+.request-button-content {
+    
+}
+*/
 
 
 
