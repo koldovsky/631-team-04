@@ -1,24 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0px;
 }
-.tanzania-tour{
-    background: url("../img/tansania-header/tanzania-background.webp");
+header {
+    font-family: 'Dosis', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgb(0, 0, 0)), url(../img/tansania-header/tanzania-background.webp);
+    background-size: cover;  
 }
-.header-name{
-    font-family: 'Dosis';
-    color: white;
-    font-weight: 500;
-    font-size: 19px;
-}
-.header-icon{
+.head-line {
     display: flex;
     justify-content: space-around;
-    padding: 50px 40px 30px 80px;
-    min-width: 1065px;
+    padding: 40px 40px 30px 90px;
+    color:white;
+    font-size: 19px;
+    font-family: Dosis,sans-serif;
+    font-weight: 500;
 }
-.navigation-menu {
+nav{
+    display: flex;
+    justify-content:center;
+
+}
+.nav-button {
+    margin: 15px;
+    font-size: 17px;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    color:#fff;
+    font-weight: 700;
+}
+.animal-runs {
     display: flex;
     justify-content: center;
-    list-style-type: none;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}  
+.a-runs {
+    border-color:#fff;
+    border-width: 10px;
+    border-style: solid;
+}
+h1 {
+    font-size: 48px;
+    color: #f1c324;
+    line-height: 1.18;
+    font-family: Dosis,sans-serif;
+    font-weight: 700;
+    text-align: center;
+   
+}
+.tanzania-text {
+    width: 1200px; 
+    margin-left: 350px;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.7;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+}
+.info-section {
+    background-color:linear-gradient(rgba(0,0,0,0.2), rgb(14, 14, 14)),;
+    color:#fff;
+}
+.info-blocks {
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }

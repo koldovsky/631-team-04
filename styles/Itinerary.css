@@ -1,27 +1,46 @@
+@import url(https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap);
 
-
-header .banner-snake {
-    background-image: url(/img/img-itinerary/snake-black-fon.webp);
-    min-height: auto;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-}
-header .banner {
-    background-image: url(/img/img-itinerary/mountains-fon.webp);
-    min-height: auto;
-    background-size: cover;
-    background-position: center;
-    display: flex;
+.baner {
+background-image: url(../img/img-itinerary/snake-black-fon.webp);
+background-size: cover;
 }
 
-  .yelloy-text {
+.banner {
+  background-image: url(../img/img-itinerary/mountains-fon.webp);
+  background-size: cover;
+}
+
+  .yellow-text {
     color: yellow;
     color: yellow;
+    font-family: Dosis, serif;
+    font-size: 30px;
   }
 
   .white-text{
     color: white;
+  
+  }
+  .itinerary{
+    font-size: 50px;
+    text-align: center;
+    font-family: Dosis, serif;
+    color: white;
+    
+  }
+  .cost{
+    text-align: center;
+  }
+
+  .text{
+    text-align: center;
+    color: white;
+    font-family: Dosis, serif;
+    justify-content: center;
+  }
+  .dote{
+    border-top: 6px dotted rgb(255, 255, 255)
+    
   }
 
 
