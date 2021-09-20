@@ -6,12 +6,21 @@
 * {
     margin: 0;
     padding: 0px;
+<<<<<<< HEAD
+=======
+    margin: auto;
+>>>>>>> 5d892e38860cffd843b741e977525950bc81bb92
     --main-color: white;
     --nav-header-and-hover-color: #f1c324; 
     --hr-section-and-bckgr-color: rgb(36,184, 241);
     --main-grey-color: rgb(110, 110, 110);
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    /*max-height: 662px;*/
+}
 
 .main-background {
     background: url(../img/first-header-and-section/first-background.png);
@@ -24,7 +33,7 @@
     justify-content: space-around;
     padding: 30px 15px;
     min-width: 1200px;
-    margin: 104px auto;
+    margin: 0 auto;
 }
 
 .font-style-header-name {
@@ -102,12 +111,6 @@
 
 .align-about-learn-more {
     margin-left: 100px;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1440px;
-    max-height: 662px;
 }
 
 .about-us-p {
