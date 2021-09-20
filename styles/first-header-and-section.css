@@ -6,8 +6,6 @@
 * {
     margin: 0;
     padding: 0px;
-    /* V. added code here */
-    max-width: 1440px;
     margin: auto;
     --main-color: white;
     --nav-header-and-hover-color: #f1c324; 
