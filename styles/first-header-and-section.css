@@ -17,7 +17,7 @@
 
 
 .main-background {
-    background: url(img/first-header-and-section/first-background.png);
+    background: url(../img/first-header-and-section/first-background.png);
     background-size: cover;
     height: 100vh;
 }
