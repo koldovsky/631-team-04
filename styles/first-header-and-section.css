@@ -12,7 +12,7 @@
 }
 
 .main-background {
-    background: url(../img/first-header-and-section/first-background.png);
+    background: url(/img/first-header-and-section/first-background.png);
     background-size: cover;
     height: 100vh;
 }
@@ -20,8 +20,8 @@
 .align-items-header {
     display: flex;
     justify-content: space-around;
-    padding: 50px 40px 30px 80px;
-    min-width: 1065px;
+    padding: 30px 15px;
+    min-width: 1200px;
 }
 
 .font-style-header-name {
@@ -76,9 +76,8 @@
 }
 
 .first-section-align {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 4fr 6fr;
 }
 
 .about-us-styles-and-title {
@@ -94,11 +93,15 @@
     margin-bottom: 20px;
 }
 
- /*.container {
-    /*margin: 0 auto auto 100px;
-    max-width: 1420px;
-    max-height: 658px;
-}*/
+.align-about-learn-more {
+    margin-left: 100px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    max-height: 662px;
+}
 
 .about-us-p {
     width: 565px;
@@ -110,12 +113,8 @@
 }
 
 .img-zebra {
-/* V. added code here
-    max-width: 90%;
-    height: auto;*/
     max-width: 100%;
     display: block;
-
 }
 
 .button-learn-more {
