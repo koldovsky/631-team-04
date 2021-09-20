@@ -134,7 +134,7 @@
     cursor: pointer;
     background-color: var(--hr-section-and-bckgr-color);
     text-decoration: none;
-    color: white;
+    color: var(--main-color);
     font-weight: 700;
     text-align: center;
     font-size: 12px;
