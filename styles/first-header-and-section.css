@@ -57,7 +57,7 @@
     font-weight: 700;
 }
 .nav-link:hover {
-    color: var(--nav-header-color);
+    color: #f1c324;
 }
 
 .big-text-align {
@@ -83,7 +83,7 @@
 
 .first-section-align {
     display: grid;
-    grid-template-columns: 4fr 6fr;
+    grid-template-columns: 3fr 7fr;
 }
 
 .about-us-styles-and-title {
@@ -95,7 +95,7 @@
 }
 .hr-style {
     width: 35px; 
-    border-top: 6px dotted var(--hr-section-color);
+    border-top: 6px dotted rgb(36,184, 241);
     margin-left: 0px;
     margin-bottom: 20px;
     border-bottom: .1px;
