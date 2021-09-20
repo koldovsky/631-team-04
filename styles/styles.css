@@ -285,20 +285,14 @@ h2#tours {
 }
 /* our tours section */
 /* real africa section */
-div.block-want-to-see-real-africa{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 1400px;
+section.block-want-to-see-real-africa {
+    padding-top: 70px;
+    padding-bottom: 90px;
 }
-/* V added code here*/
+
 .block-want-to-see-real-africa .image-tiger {
     max-width: 100%;
     display: block;
-}
-.contact-form-want-to-see-real-africa{
-    background-color: rgb(255, 255, 255);
-    padding: 40px;
 }
 
 #want-to-see-real-africa {
@@ -307,24 +301,74 @@ div.block-want-to-see-real-africa{
     font-family: Dosis;
 }
 
+.dots-decorative-white{
+    border-top: 6px dotted rgb(255, 255, 255);
+    width: 40px;
+    margin-top: 10px;
+}
+
+.сontent-want-to-see-real-africa {
+    margin: 0 24px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    max-width: 100%;
+    height: 600px;
+}
+
+@media (min-width: 800px) {
+    div.block-want-to-see-real-africa{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .сontent-want-to-see-real-africa {
+        margin: 0 24px;
+        padding: 50px;
+        background-color: rgba(255, 255, 255, 0.1);
+        text-align: center;
+        width: 50%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .image-tiger-container{
+        width: 50%; 
+    }
+}
+
 .сontent-want-to-see-real-africa p {
     color: rgb(110, 110, 110);
     font-size: 19px;
-    font-family: Roboto;
+    font-family: Dosis;
     font-weight: 500;
+    margin-top: 24px;
 }
 
-.contact-form-want-to-see-real-africa div{
-    padding: 19px 21px 19px 21px;
+.contact-form-want-to-see-real-africa {
+    margin-top: 24px;
+    max-width: 100%;
+}
+
+div.contact-form-item {
+    margin-bottom: 24px;
+}
+
+.contact-form-item input{
     background-color: rgba(255, 255, 255, 0.1);
-    
+    color: rgb(110, 110, 110);
+    width: 100%;
+    height: 52px;
+    padding-left: 15px;
+    border: none;
+    box-sizing: border-box;
 }
 
-.contact-form-want-to-see-real-africa [placeholder]{
-    color: rgb(255, 255, 255);
+.contact-form-item input[placeholder] {
     font-size: 12px;
     font-family: Roboto;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .contact-form-want-to-see-real-africa button{
@@ -335,7 +379,26 @@ div.block-want-to-see-real-africa{
     background-color: rgb(241, 195, 36);
     text-transform: uppercase;
     padding: 19px 21px 19px 21px;
+    width: 100%;
+    border: none;
 }
+
+.contact-form-want-to-see-real-africa button:hover{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 700;
+    background-color: var(--blue-color);
+    text-transform: uppercase;
+    padding: 19px 21px 19px 21px;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.real-africa-button {
+    margin-top: 56px;
+}
+
 /* real africa section */
 /* additional services */
 .dots-decorative{
