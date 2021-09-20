@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+.container-footer {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  padding: 40px;
+  margin: auto;
+}
+
+li .footer-nav-links {
+  color: white;
+  text-decoration: none;
+}
+
+.second-footer-column {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}
+
+.third-footer-column {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+.fourth-footer-column {
+  color: white;
+  align-self: flex-end;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.bottom-row {
+  color: white;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.footer-nav-links:hover {
+  color: orange;
+}
+
