@@ -17,30 +17,34 @@ background-size: cover;
     font-size: 30px;
   }
 
-  .white-text{
+  .white-text {
     color: white;
   
   }
-  .itinerary{
+  .itinerary {
     font-size: 50px;
     text-align: center;
     font-family: Dosis, serif;
     color: white;
     
   }
-  .cost{
+  .cost {
     text-align: center;
   }
 
-  .text{
+  .text {
     text-align: center;
     color: white;
     font-family: Dosis, serif;
     justify-content: center;
   }
-  .dote{
+  .dote {
     border-top: 6px dotted rgb(255, 255, 255)
     
+  }
+  .first-section-itinerary {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
   }
 
 
