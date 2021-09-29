@@ -29,8 +29,11 @@
     display: flex;
     justify-content: space-around;
     padding: 30px 15px;
-    min-width: 1200px;
     margin: 0 auto;
+}
+
+.for-fix {
+    padding-right: 50px;
 }
 
 .font-style-header-name {
@@ -43,6 +46,7 @@
 .font-style-header-name:hover {
     text-decoration: none;
 }
+
 .nav {
     display: flex;
     justify-content: center;
@@ -50,8 +54,8 @@
 }
 
 .nav-li{
-    margin: 20px;
-}
+    margin: 15px;
+} 
 
 .nav-link {
     color: var(--main-color);
@@ -73,7 +77,7 @@
     font-family: Leckerli One;
     font-weight: 400;
     color: var(--main-color);
-    margin-top: 210px; 
+    margin-top: 270px; 
 }
 
 .header-p {
