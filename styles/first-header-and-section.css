@@ -322,11 +322,20 @@
     padding-bottom: 90px;
 }
 
-.team-members-carousel-warapper {
+.team-members-carousel-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
+}
+
+.team-members-carousel-wrapper .team-members-carousel-slide-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-members-carousel-wrapper .team-members-carousel-slide-container img {
+    width: 30%;
 }
 
 .team-members-carousel-item-generic {
