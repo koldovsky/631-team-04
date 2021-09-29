@@ -9,6 +9,10 @@ background-size: cover;
   background-image: url(../img/img-itinerary/mountains-fon.webp);
   background-size: cover;
 }
+.container-itinerary{
+  margin: auto;
+  max-width: 980px;
+}
 
   .yellow-text {
     color: yellow;
@@ -29,7 +33,7 @@ background-size: cover;
     
   }
   .cost {
-    text-align: center;
+    display: flex;
   }
 
   .text {
