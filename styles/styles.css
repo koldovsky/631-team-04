@@ -72,13 +72,14 @@
     display: flex;
     padding-top: 50px;
     margin: auto;
+
 }
 
 .contacts .text {
     margin-left: 120px; 
     background-color: rgba(255, 255, 255, 0.09);
     padding: 50px 50px 50px 50px;
-    max-height: 400px;
+    margin-bottom: 200px;
    
 }
 
@@ -175,8 +176,11 @@ footer .rights-reserved {
     justify-content: center;
     padding: 15px 15px;
     font-size: 16px;
-    max-width: 300px;
+    margin: auto;
 
+}
+footer .rights-reserved p{
+    padding: 0 15px;
 }
 
 footer .footer-img {
@@ -187,8 +191,8 @@ footer .footer-img {
 footer .social-links {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
-    max-width: 200px;
+    padding:15px;
+    margin:auto;
 }
 
 footer .social-links img {

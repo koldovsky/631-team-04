@@ -159,12 +159,12 @@
 
 .safari-go_on-reasons-block-wrapper {
     background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../img/reasons-to-go-on-safari-background.jpg') fixed;
-    padding-bottom: 90px;
+    min-height: 670px;
 }
 .reasons-section-wrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 .reasons-section-header {
     padding-top: 90px;
@@ -191,9 +191,12 @@
     text-align: center;
     margin: 30px 20px;
     padding: 20px;
-    min-width: 150px;
-    max-width: 210px;
-    min-height: 300px;
+    min-width: 50px;
+    max-width: 300px;
+    min-height: 50px;
+    max-height: 300px;
+    display: flex;
+    align-self: center;
 }
 .generic-column-icon-element {
     display: block;
@@ -233,6 +236,7 @@
 .safari-go_on-ready-block-wrapper {
     background: url('../img/ready-to-go-on-safari-background.jpg');
     background-size: cover;
+    min-height: 625px;
 }
 .safari-go_on-ready-inner-block {
     padding-top: 200px;
@@ -267,19 +271,10 @@
     height: 50px;
     background-color: #24b8f1;
     border: none;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0px auto;
-}
-.quote-request-button:hover {
-    background-color: #f1c41f;
-}
-.safari-go_on-ready-button-group {
-    padding-top: 30px;
-    padding-left: 40px;
-    padding-bottom: 90px;
-    max-width: 50%;
-}
-.request-button-content {
     font-size: 12px!important;
     line-height: 1em!important;
     letter-spacing: 0!important;
@@ -290,7 +285,20 @@
     text-transform: uppercase;
     text-decoration: none;
 }
-
+.quote-request-button:hover {
+    background-color: #f1c41f;
+}
+.safari-go_on-ready-button-group {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    max-width: 50%;
+}
+/*
+.request-button-content {
+    
+}
+*/
 
 
 
