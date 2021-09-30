@@ -30,17 +30,16 @@ background-size: cover;
     text-align: center;
     font-family: Dosis, serif;
     color: white;
-    
+    justify-content: space-between;
   }
   .cost {
-    display: flex;
+    /* display: flex; */
   }
 
   .text {
-    text-align: center;
     color: white;
     font-family: Dosis, serif;
-    justify-content: center;
+    justify-content:flex-start;
   }
   .dote {
     border-top: 6px dotted rgb(255, 255, 255)
@@ -50,5 +49,7 @@ background-size: cover;
     display: grid;
     grid-template-columns: 3fr 7fr;
   }
-
+.picture {
+  justify-content: space-between;
+}
 
