@@ -179,7 +179,18 @@
     letter-spacing: -.021em;
     display: block;
     text-align: center;
+    margin-bottom: 15px;
 }
+
+.reasons-dots-white {
+    width: 35px;
+    border-top: 6px dotted white;
+    border-bottom: .1px;
+    border-left: .1px;
+    border-right: .1px;
+    margin: auto;
+}
+
 .reasons-section-content-columns {    
     display: flex;
     flex-wrap: wrap;
@@ -254,6 +265,15 @@
     padding-left: 30px;
 }
 
+.ready-dots-blue {
+    width: 35px;
+    border-top: 6px dotted rgb(36,184, 241);
+    border-bottom: .1px;
+    border-left: .1px;
+    border-right: .1px;
+    margin: auto;
+}
+
 .safari-go_on-ready-text-content {
     font-size: 20px;
     line-height: 1.56;
@@ -321,6 +341,15 @@
     text-align: center;
     padding-top: 90px;
     padding-bottom: 90px;
+}
+
+.meet-dots-blue {
+    width: 35px;
+    border-top: 6px dotted rgb(36,184, 241);
+    border-bottom: .1px;
+    border-left: .1px;
+    border-right: .1px;
+    margin: auto;
 }
 
 .team-members-carousel-wrapper {
