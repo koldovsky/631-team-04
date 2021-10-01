@@ -4,9 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0px;
-    margin: auto;
     --main-color: white;
     --nav-header-and-hover-color: #f1c324; 
     --hr-section-and-bckgr-color: rgb(36,184, 241);
@@ -236,7 +235,7 @@
 .safari-go_on-ready-block-wrapper {
     background: url('../img/ready-to-go-on-safari-background.jpg');
     background-size: cover;
-    min-height: 625px;
+    min-height: 535px;
 }
 .safari-go_on-ready-inner-block {
     padding-top: 200px;
@@ -262,7 +261,7 @@
     font-weight: 400;
     word-wrap: break-word;
     text-align: center;
-    max-width: 50%;
+    max-width: 650px;
     padding-left: 50px;
 }
 
@@ -289,9 +288,11 @@
     background-color: #f1c41f;
 }
 .safari-go_on-ready-button-group {
+    display: flex;
+    justify-content: center;
     padding-top: 30px;
-    padding-left: 40px;
-    padding-bottom: 90px;
+    padding-bottom: 30px;
+    margin-left: 30px;
     max-width: 50%;
 }
 /*
@@ -304,7 +305,7 @@
 
 .meet-our-team-block-wrapper {
     background:rgb(246, 248, 250);
-    padding: 90px;
+    padding: 0 90px 150px 90px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -327,25 +328,40 @@
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
+    position: relative;
+}
+.team-btn-slide-prev img {
+    position: absolute;
+    padding-top: 150px;
+}
+.team-btn-slide-next img {
+    position: absolute;
+    padding-top: 150px;
 }
 
 .team-members-carousel-wrapper .team-members-carousel-slide-container {
     display: flex;
     justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 
 .team-members-carousel-wrapper .team-members-carousel-slide-container img {
-    width: 30%;
+    max-width: 350px;
+    max-height: 330px;
+    object-fit: cover;
+    display: inline-block;
 }
 
 .team-members-carousel-item-generic {
     max-width: 350px;
+    max-height: 330px;
     margin: 20px;
+    padding: 0 15px 0 15px;
     box-sizing: border-box;
 }
-.team-members-carousel-item-generic img {
+/* .team-members-carousel-item-generic img {
     width: 100%;
-}
+} */
 .team-members-carousel-h2-style {
     font-size: 25px;
     line-height: 1.31;
@@ -368,13 +384,16 @@
 .team-members-social-icons-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     box-sizing: border-box;
 }
 
 
 .team-members-social-icons-element {
-    width: 70px;
-    height: 70px;
     display: inline-block;
+}
+
+#team-members-social-icons-element {
+    max-width: 30px;
+    max-width: 30px;
 }
