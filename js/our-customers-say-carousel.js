@@ -1,3 +1,4 @@
+(function (){
 const slides = [
     `<div class="card-container">
     <div class="img">
@@ -65,3 +66,4 @@ btnNext.addEventListener('click', nextSlide);
 const btnPrev = document.querySelector('.our-customers-say-carousel-container .slide-prev');
 btnPrev.addEventListener('click', prevSlide);
 
+})();
