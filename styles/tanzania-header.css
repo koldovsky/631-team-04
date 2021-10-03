@@ -128,7 +128,7 @@ h1 {
 }
 .discount {
   font-size: 50px;
-  color:#f1c324;
+  color:white;
   display:flex;
   justify-content: center;
   padding-top: 60px;
@@ -138,3 +138,12 @@ h1 {
     color:#6e6e6e;
     font-size: 2em;
 }
+span{
+ 
+    transition: all 0.7s ease;
+    
+  }
+  
+  span.fade{
+   color:#f1c324;
+  }
