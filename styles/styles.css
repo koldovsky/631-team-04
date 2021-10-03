@@ -23,7 +23,7 @@
 
 .our-customers-say p {
     color: var(--p-color);
-    padding: 25px 25px;
+    padding: 30px 25px;
     margin: 0 25px;
     line-height: 1.5;
 }
@@ -60,6 +60,7 @@
     background-color: rgba(255, 255, 255, 0.07);
     text-align: center;
     margin: 0;
+    position: relative;
 }
 
 .customer-say-img {
@@ -68,6 +69,29 @@
 
 }
 
+.carousel-button {
+    background-color: #e7e7e7; /* Green */
+    border: 2px solid #555555;
+    color: black;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.carousel-button:hover {
+    background-color:white;
+}
+
+.carousel-buttons {
+    margin: -100px;
+    position: absolute;
+    right: 465px;
+}
 /* contacts section */
 .contacts {
     background-color: black;
