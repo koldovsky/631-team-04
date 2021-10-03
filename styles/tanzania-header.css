@@ -134,15 +134,7 @@ h1 {
   padding-top: 60px;
   font-weight: 700;
 }
-.day {
+.day, .hour, .minute, .second{
     color:#6e6e6e;
-}
-.hour {
-    color:#6e6e6e;
-}
-.minute {
-    color:#6e6e6e;
-}
-.second {
-    color:#6e6e6e;
+    font-size: 2em;
 }
