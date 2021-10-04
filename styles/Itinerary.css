@@ -9,6 +9,10 @@ background-size: cover;
   background-image: url(../img/img-itinerary/mountains-fon.webp);
   background-size: cover;
 }
+.block-img {
+  /* display: block;
+  flex-direction: column; */
+}
 
 .container-itinerary{
   margin: auto;
@@ -31,12 +35,15 @@ background-size: cover;
     text-align: center;
     font-family: Dosis, serif;
     color: white;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
   .dotes{
     border-top: 6px dotted white;
     width: 40px;
     margin-top: 10px;
+    border-bottom: .1px;
+    border-left: .1px;
+    border-right: .1px;
   }
   /* .cost { */
     /* display: flex; */
@@ -45,6 +52,7 @@ background-size: cover;
   .text {
     color: white;
     font-family: Dosis, serif;
+    min-width: 600px;
   }
     
   .first-section-itinerary {
