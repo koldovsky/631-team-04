@@ -243,9 +243,22 @@ h2#tours {
     text-align: center;
  }
 
+ .our-tours-carousel img {
+    display: block;
+    background-color:  white;
+}
+
+.our-tours-slide-container {
+    display: flex;
+    justify-content: space-around;
+}
+
 .our-tours-carousel {
    padding: 0 24px;
    margin-top: 40px;
+   display: grid;
+   grid-template-columns: 1fr 10fr 1fr;
+   align-items:center;
 }
 
 .our-tours-carousel-item {
