@@ -91,19 +91,29 @@
     justify-content: center;
     margin: 0 120px;
 }
+
+@media (max-width: 980px){
+    .our-customers-say-slides-container .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .our-customers-say-carousel-container {
+        margin: 0;
+    }
+}
 /* contacts section */
 .contacts {
     background-color: black;
     display: flex;
     margin: auto;
-
+    padding-right: 120px;
 }
 
 .contacts .text {
-    margin-left: 120px; 
+    margin-left: 120px;  
     background-color: rgba(255, 255, 255, 0.09);
     padding: 50px 50px 50px 50px;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
    
 }
 
@@ -146,8 +156,25 @@
 .contacts img {
     display: block;
     width: 100%; 
+    margin-bottom: 120px;
 }
 
+@media (max-width: 980px) {
+    .contacts{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contacts img {
+        margin-bottom: 0px;
+    }
+
+    .contacts {
+        padding-right: 30px;
+    }
+    .contacts .text {
+        margin-left: 30px;
+    }
+}
 /* Clock */
 .clock {
     color: var(--p-color);
@@ -240,6 +267,17 @@ footer .social-links img {
 
 }
 
+@media (max-width: 980px) {
+    .jump-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rights-reserved {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* our tours section */
 section.block-our-tours, section.block-want-to-see-real-africa {
     background-color: black;
