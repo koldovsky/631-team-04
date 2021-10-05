@@ -263,6 +263,10 @@ h2#tours {
 
 .our-tours-carousel-item {
     padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items:inherit;
+
  }
 
 .our-tours-carousel-item img{
@@ -281,7 +285,8 @@ h2#tours {
     color: rgb(110, 110, 110);
     font-size: 17px;
     font-family: Roboto;
-    margin: 20px 0;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 .block-our-tours p.our-tours-bold {
@@ -300,6 +305,7 @@ h2#tours {
 }
 
 .block-our-tours a {
+    display: block;
     color: rgb(255, 255, 255);
     font-size: 10.8px;
     font-family: Roboto;
@@ -308,17 +314,14 @@ h2#tours {
     border-width: 1px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
-    margin: 15px;
-    padding: 15px 17px 15px 17px;
-}
-div.block-our-tours div a {
-    display: block;
     margin: 20px 0 20px 0;
+    padding: 15px 17px 15px 17px;
     width: fit-content;
     text-decoration: none;
+    position: relative;
 }
 
-div.block-our-tours div a:hover {
+.block-our-tours a:hover {
     color: black;
     font-size: 10.8px;
     font-family: Roboto;
