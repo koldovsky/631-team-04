@@ -9,7 +9,7 @@
 header {
     font-family: 'Dosis', sans-serif;
     background-image: linear-gradient(rgba(0,0,0,0.2), rgb(19, 19, 19)), url(../img/tansania-header/tanzania-background.webp);
-    background-size: cover;  
+    background-size: cover;
 }
 .email {
 color: #fff;
@@ -91,16 +91,16 @@ h1 {
     text-align: center;
 }
 .info-section {
-    background-color:linear-gradient(rgba(0,0,0,0.2), rgb(32, 32, 32)),;
+    background-color:linear-gradient(rgba(0,0,0,0.2), rgb(32, 32, 32));
     color:#fff;
 }
 .info-blocks {
     display: flex;
-    justify-content:space-around;
-    margin: auto;
-    width: 1200px;
+    justify-content:space-between;
     padding-top: 100px;
     padding-bottom: 70px;
+    width: 1200px;
+    margin:auto;
 }
 .high-text {
     color: #6e6e6e;
@@ -118,13 +118,12 @@ h1 {
 }
 .coming-soon {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-size: 40px;
   color:#f1c324;
   padding-top: 70px;
   font-weight: 700;
   margin:auto;
-  width: 1400px;
 }
 .discount {
   font-size: 50px;
@@ -133,6 +132,7 @@ h1 {
   justify-content: center;
   padding-top: 60px;
   font-weight: 700;
+  
 }
 .day, .hour, .minute, .second{
     color:#6e6e6e;
