@@ -241,6 +241,7 @@ h2#tours {
     color: #f1c324;
     font-family: Dosis;
     text-align: center;
+    margin-bottom: 10px;
  }
 
  .our-tours-carousel img {
@@ -348,12 +349,16 @@ h2#tours {
     font-size: 32px;
     color: rgb(241, 195, 36);
     font-family: Dosis;
+    margin-bottom: 10px;
 }
 
 .dots-decorative-white{
     border-top: 6px dotted rgb(255, 255, 255);
     width: 40px;
-    margin-top: 10px;
+    margin: auto;
+    border-bottom: .1px;
+    border-left: .1px;
+    border-right: .1px;
 }
 
 .сontent-want-to-see-real-africa {
@@ -453,7 +458,10 @@ div.contact-form-item {
 .dots-decorative{
     border-top: 6px dotted rgb(36, 184, 241);
     width: 40px;
-    margin-top: 10px;
+    margin: auto;
+    border-bottom: .1px;
+    border-left: .1px;
+    border-right: .1px;
 }
 .block-additional-services{
     background-image: url(../img/img-additional-services/add-services-background-texture.png);
@@ -502,6 +510,7 @@ margin: 40px 24px;
     font-size: 41px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .additional-services-list{
