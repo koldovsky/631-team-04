@@ -190,6 +190,12 @@
     padding: 80px;
 }
 
+@media (max-width: 980px) {
+    .clock-div {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* footer page 1 */
 footer {
     background-color: rgb(247, 249, 251);
