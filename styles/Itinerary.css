@@ -2,54 +2,68 @@
 
 .baner {
 background-image: url(../img/img-itinerary/snake-black-fon.webp);
-background-size: cover;
+ background-size: cover;
 }
-
 .banner {
   background-image: url(../img/img-itinerary/mountains-fon.webp);
   background-size: cover;
 }
-.container-itinerary{
-  margin: auto;
-  max-width: 980px;
+.line-img {
+display: block;
+width: 100%;
+
 }
 
-  .yellow-text {
-    color: yellow;
-    color: yellow;
-    font-family: Dosis, serif;
-    font-size: 30px;
-  }
+.container-itinerary{
+ margin: auto;
+ max-width: 980px;
+/* display: grid;
+grid-template-columns: 200px 200px 200px; */
 
-  .white-text {
+}
+.first-section-itinerary {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+.text {
     color: white;
-  
+    font-family: Dosis, serif;
+    grid-gap: 30px;
   }
+.style-img {
+  display: block;
+  width: 100%;
+  /* object-fit: cover; */
+}
+ 
   .itinerary {
     font-size: 50px;
     text-align: center;
     font-family: Dosis, serif;
     color: white;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
-  .cost {
+  .dotes{
+    border-top: 6px dotted white;
+    width: 40px;
+    margin-top: 10px;
+    border-bottom: .1px;
+    border-left: .1px;
+    border-right: .1px;
+  }
+  /* .cost { */
     /* display: flex; */
-  }
-
-  .text {
+  /* } */
+ .snake-width {
+  width: 100px;
+} 
+ .white-text {
     color: white;
+  }
+ .yellow-text {
+    color: yellow;
+    color: yellow;
     font-family: Dosis, serif;
-    justify-content:flex-start;
+    font-size: 30px;
   }
-  .dote {
-    border-top: 6px dotted rgb(255, 255, 255)
-    
-  }
-  .first-section-itinerary {
-    display: grid;
-    grid-template-columns: 3fr 7fr;
-  }
-.picture {
-  justify-content: space-between;
-}
-

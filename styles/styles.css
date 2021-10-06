@@ -16,14 +16,14 @@
     font-family: Roboto, sans-serif;
     font-size: 17px;
     font-weight: 400;
-    padding-top: 140px;
-    padding-bottom: 70px;
+    padding-top: 120px;
+    padding-bottom: 20px;
 
 }
 
 .our-customers-say p {
     color: var(--p-color);
-    padding: 25px 25px;
+    padding: 30px 25px;
     margin: 0 25px;
     line-height: 1.5;
 }
@@ -34,11 +34,13 @@
     font-size: 48px;
     font-weight: 700;
     padding-bottom: 25px;
+    text-align: center;
 }
 .our-customers-say .dots {
     width: 40px; 
     border-top: 6px dotted rgb(255, 255, 255);
     margin: auto;
+    padding-bottom: 20px;
 }
 .our-customers-say p.customer-name {
     color: var(--header-color);
@@ -49,7 +51,6 @@
 
 .our-customers-say div.card-container {
     display: flex;
-    margin: 0 120px;
     padding: 0 15px;
 
 }
@@ -58,6 +59,7 @@
     background-color: rgba(255, 255, 255, 0.07);
     text-align: center;
     margin: 0;
+    position: relative;
 }
 
 .customer-say-img {
@@ -66,20 +68,52 @@
 
 }
 
+.carousel-button {
+    background-color: #e7e7e7; /* Green */
+    border: 2px solid #555555;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.carousel-button:hover {
+    background-color:white;
+}
+
+
+.our-customers-say-carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 120px;
+}
+
+@media (max-width: 980px){
+    .our-customers-say-slides-container .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .our-customers-say-carousel-container {
+        margin: 0;
+    }
+}
 /* contacts section */
 .contacts {
     background-color: black;
     display: flex;
-    padding-top: 50px;
     margin: auto;
-
+    padding-right: 120px;
 }
 
 .contacts .text {
-    margin-left: 120px; 
+    margin-left: 120px;  
     background-color: rgba(255, 255, 255, 0.09);
     padding: 50px 50px 50px 50px;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
    
 }
 
@@ -94,8 +128,8 @@
     width: 40px; 
     border-top: 6px dotted rgb(255, 255, 255);
     padding-bottom: 20px;
-    text-align: left;
-    margin-left: 0;
+    text-align: center;
+
 }
 .contacts h3 {
     color: var(--header-color);
@@ -122,9 +156,46 @@
 .contacts img {
     display: block;
     width: 100%; 
-
+    margin-bottom: 120px;
 }
 
+@media (max-width: 980px) {
+    .contacts{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contacts img {
+        margin-bottom: 0px;
+    }
+
+    .contacts {
+        padding-right: 30px;
+    }
+    .contacts .text {
+        margin-left: 30px;
+    }
+}
+/* Clock */
+.clock {
+    color: var(--p-color);
+    font-size: 40px;
+    font-family: Dosis, sans-serif;
+}
+
+.clock-div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px;
+}
+
+@media (max-width: 980px) {
+    .clock-div {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* footer page 1 */
 footer {
     background-color: rgb(247, 249, 251);
@@ -202,28 +273,112 @@ footer .social-links img {
 
 }
 
+@media (max-width: 980px) {
+    .jump-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rights-reserved {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* our tours section */
-.block-our-tours, .block-want-to-see-real-africa {
+section.block-our-tours, section.block-want-to-see-real-africa {
     background-color: black;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+h2#tours {
+    display: block;
+    font-size: 41px;
+    color: #f1c324;
+    font-family: Dosis;
+    text-align: center;
+    margin-bottom: 10px;
+ }
+
+ .our-tours-carousel img {
+    display: block;
+    background-color:  white;
+}
+
+.our-tours-slide-container {
+    display: flex;
+    justify-content: space-around;
 }
 
 .our-tours-carousel {
+   padding: 0 24px;
+   margin-top: 40px;
+   display: grid;
+   grid-template-columns: 1fr 10fr 1fr;
+   align-items:center;
+}
+
+.our-tours-carousel-item {
+    padding: 0 15px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    flex-direction: column;
+    align-items:inherit;
 
-div.block-our-tours div{
-    padding: 10px;
-}
+ }
 
-div.block-our-tours div a {
+.our-tours-carousel-item img{
     display: block;
-    margin: 20px 0 20px 0;
-    width: fit-content;
+    width: 100%;
+ }
+
+ .our-tours-carousel-item h3{
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: Dosis;
+ }
+
+.our-tours-description{
+    color: rgb(110, 110, 110);
+    font-size: 17px;
+    font-family: Roboto;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
-div.block-our-tours div a:hover {
+.block-our-tours p.our-tours-bold {
+    color: rgb(110, 110, 110);
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.our-tours-bold-yellow {
+    color: rgb(241, 195, 36);
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.block-our-tours a {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 10.8px;
+    font-family: Roboto;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    margin: 20px 0 20px 0;
+    padding: 15px 17px 15px 17px;
+    width: fit-content;
+    text-decoration: none;
+    position: relative;
+}
+
+.block-our-tours a:hover {
     color: black;
     font-size: 10.8px;
     font-family: Roboto;
@@ -239,61 +394,8 @@ div.block-our-tours div a:hover {
     margin: 20px 0 20px 0;
     width: fit-content;
 }
-
-h2#tours {
-    display: block;
-    font-size: 41px;
-    color: #f1c324;
-    font-family: Dosis;
-    text-align: center;
- }
-
-.block-our-tours h3 {
-    color: rgb(255, 255, 255);
-    font-size: 23px;
-    font-family: Dosis;
-}
-
-.block-our-tours p {
-    color: rgb(110, 110, 110);
-    font-size: 17px;
-    font-family: Roboto;
-}
-
-.block-our-tours p.our-tours-bold {
-    color: rgb(110, 110, 110);
-    font-size: 17px;
-    font-family: Roboto;
-    font-weight: 700;
-}
-
-.block-our-tours span {
-    color: rgb(241, 195, 36);
-    font-size: 17px;
-    font-family: Roboto;
-    font-weight: 700;
-}
-
-.block-our-tours a {
-    color: rgb(255, 255, 255);
-    font-size: 10.8px;
-    font-family: Roboto;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    margin: 15px;
-    padding: 15px 17px 15px 17px;
-
-}
 /* our tours section */
 /* real africa section */
-section.block-want-to-see-real-africa {
-    padding-top: 70px;
-    padding-bottom: 90px;
-}
-
 .block-want-to-see-real-africa .image-tiger {
     max-width: 100%;
     display: block;
@@ -303,12 +405,16 @@ section.block-want-to-see-real-africa {
     font-size: 32px;
     color: rgb(241, 195, 36);
     font-family: Dosis;
+    margin-bottom: 10px;
 }
 
 .dots-decorative-white{
     border-top: 6px dotted rgb(255, 255, 255);
     width: 40px;
-    margin-top: 10px;
+    margin: auto;
+    border-bottom: .1px;
+    border-left: .1px;
+    border-right: .1px;
 }
 
 .сontent-want-to-see-real-africa {
@@ -408,7 +514,10 @@ div.contact-form-item {
 .dots-decorative{
     border-top: 6px dotted rgb(36, 184, 241);
     width: 40px;
-    margin-top: 10px;
+    margin: auto;
+    border-bottom: .1px;
+    border-left: .1px;
+    border-right: .1px;
 }
 .block-additional-services{
     background-image: url(../img/img-additional-services/add-services-background-texture.png);
@@ -457,6 +566,7 @@ margin: 40px 24px;
     font-size: 41px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .additional-services-list{
