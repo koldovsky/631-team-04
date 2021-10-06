@@ -3,7 +3,7 @@
 
 
 
-    const slides = [
+    const ourTeamSlides = [
         `<div class="team-members-carousel-item-generic">
             <img src="img/meet-our-teem-carusel-block-pics/helena-farse-pic.webp" alt="Helena Farse foto">
             <h2 class="team-members-carousel-h2-style">Helena Farse</h2>
@@ -91,26 +91,32 @@
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.team-members-carousel-wrapper .team-members-carousel-slide-container');
         let html = '';
-        html = slides[currentSlide];
-        const nextSlide = currentSlide + 1 < slides.length ? currentSlide + 1 : 0;
-        html += slides[nextSlide];
-        const next2Slide = nextSlide + 1 < slides.length ? nextSlide + 1 : 0;
-        html += slides[next2Slide];
+        html = ourTeamSlides[currentSlide];
+        if (window.innerWidth > 700) {
+            const nextSlide = currentSlide + 1 < ourTeamSlides.length ? currentSlide + 1 : 0;
+            html += ourTeamSlides[nextSlide];
+            if (window.innerWidth > 900) {
+                const next2Slide = nextSlide + 1 < ourTeamSlides.length ? nextSlide + 1 : 0;
+                html += ourTeamSlides[next2Slide];
+            }
+        }
         slideContainer.innerHTML = html;
     }
 
     function prevSlide() {
         currentSlide--;
-        if (currentSlide < 0) currentSlide = slides.length - 1;
+        if (currentSlide < 0) currentSlide = ourTeamSlides.length - 1;
         showCurrentSlide();
     }
     function nextSlide() {
         currentSlide++;
-        if (currentSlide >= slides.length) currentSlide = 0;
+        if (currentSlide >= ourTeamSlides.length) currentSlide = 0;
         showCurrentSlide();
     }
-    // setInterval(nextSlide, 2000)
+   
     showCurrentSlide();
+
+    window.addEventListener('resize', showCurrentSlide);
 
     const buttonPrev = document.querySelector('.team-members-carousel-wrapper .team-btn-slide-prev');
     buttonPrev.addEventListener('click', prevSlide);
