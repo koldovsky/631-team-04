@@ -11,7 +11,7 @@ background-image: url(../img/img-itinerary/snake-black-fon.webp);
 .line-img {
 display: block;
 width: 100%;
-
+background-color: #f6d3be;
 }
 
 .container-itinerary{
