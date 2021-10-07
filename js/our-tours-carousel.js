@@ -56,10 +56,14 @@
     const slideContainer = document.querySelector(".our-tours-slide-container");
     let html = '';
     html = ourToursSlides[currentSlide];
-    const nextSlide = currentSlide + 1 < ourToursSlides.length ? currentSlide + 1 : 0;
-    html += ourToursSlides[nextSlide];
-    const next2Slide = nextSlide + 1 < ourToursSlides.length ? nextSlide + 1 : 0;
-    html += ourToursSlides[next2Slide];
+    if (window.innerWidth > 800) {
+      const nextSlide = currentSlide + 1 < ourToursSlides.length ? currentSlide + 1 : 0;
+      html += ourToursSlides[nextSlide];
+      if (window.innerWidth > 1000) {
+        const next2Slide = nextSlide + 1 < ourToursSlides.length ? nextSlide + 1 : 0;
+        html += ourToursSlides[next2Slide];
+      }
+    }
     slideContainer.innerHTML = html;
   }
 
@@ -77,6 +81,7 @@
 
   showCurrentSlide();
 
+  window.addEventListener('resize', showCurrentSlide);
   const btnNext = document.querySelector(".our-tours-btn-next");
   btnNext.addEventListener("click", nextSlide);
 
