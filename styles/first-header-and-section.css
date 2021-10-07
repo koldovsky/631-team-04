@@ -15,7 +15,6 @@
 .container {
     margin: 0 auto;
     max-width: 1440px;
-    /*max-height: 662px;*/
 }
 
 .main-background {
@@ -90,6 +89,7 @@
 .first-section-align {
     display: grid;
     grid-template-columns: 3fr 7fr;
+    width: 100%;
 }
 
 .about-us-styles-and-title {
@@ -111,10 +111,12 @@
 
 .align-about-learn-more {
     margin-left: 100px;
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .about-us-p {
-    min-width: 565px;
+    /* min-width: 565px; */
     line-height: 25px;
     margin-bottom: 50px;
     color: var(--main-grey-color);
@@ -146,12 +148,25 @@
     transition: 300ms;
 }
 
+@media (max-width: 992px) {
+    .first-section-align {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
+    .align-about-learn-more {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
 
+    .align-about-learn-more {
+        text-align: center;
+    }
 
-
-
-
+    .hr-style {
+        display: none;
+    }
+}
 
 
 
@@ -278,11 +293,10 @@
     font-size: 20px;
     line-height: 1.56;
     font-family: Roboto,sans-serif;
-    font-weight: 400;
     word-wrap: break-word;
     text-align: center;
-    max-width: 650px;
-    padding-left: 50px;
+    max-width: 50%;
+    margin-left: 50px;
 }
 
 .quote-request-button {
@@ -315,11 +329,7 @@
     margin-left: 30px;
     max-width: 50%;
 }
-/*
-.request-button-content {
-    
-}
-*/
+
 
 
 

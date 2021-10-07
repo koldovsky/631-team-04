@@ -16,7 +16,7 @@
     font-family: Roboto, sans-serif;
     font-size: 17px;
     font-weight: 400;
-    padding-top: 140px;
+    padding-top: 120px;
     padding-bottom: 20px;
 
 }
@@ -51,7 +51,6 @@
 
 .our-customers-say div.card-container {
     display: flex;
-    margin: 0 120px;
     padding: 0 15px;
 
 }
@@ -73,12 +72,10 @@
     background-color: #e7e7e7; /* Green */
     border: 2px solid #555555;
     color: black;
-    padding: 18px;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
 }
@@ -87,25 +84,36 @@
     background-color:white;
 }
 
-.carousel-buttons {
-    margin: -100px;
-    position: absolute;
-    right: 465px;
+
+.our-customers-say-carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 120px;
 }
 
+@media (max-width: 980px){
+    .our-customers-say-slides-container .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .our-customers-say-carousel-container {
+        margin: 0;
+    }
+}
 /* contacts section */
 .contacts {
     background-color: black;
     display: flex;
     margin: auto;
-
+    padding-right: 120px;
 }
 
 .contacts .text {
-    margin-left: 120px; 
+    margin-left: 120px;  
     background-color: rgba(255, 255, 255, 0.09);
     padding: 50px 50px 50px 50px;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
    
 }
 
@@ -148,8 +156,25 @@
 .contacts img {
     display: block;
     width: 100%; 
+    margin-bottom: 120px;
 }
 
+@media (max-width: 980px) {
+    .contacts{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contacts img {
+        margin-bottom: 0px;
+    }
+
+    .contacts {
+        padding-right: 30px;
+    }
+    .contacts .text {
+        margin-left: 30px;
+    }
+}
 /* Clock */
 .clock {
     color: var(--p-color);
@@ -163,9 +188,14 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 80px;
-
 }
 
+@media (max-width: 980px) {
+    .clock-div {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* footer page 1 */
 footer {
     background-color: rgb(247, 249, 251);
@@ -243,6 +273,17 @@ footer .social-links img {
 
 }
 
+@media (max-width: 980px) {
+    .jump-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rights-reserved {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* our tours section */
 section.block-our-tours, section.block-want-to-see-real-africa {
     background-color: black;
