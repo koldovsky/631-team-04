@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/Itinerary.css">
     <link rel="stylesheet" href="styles/lets-ride.css">
     <link rel="stylesheet" href="styles/tanzania-footer.css">
+    <link rel="stylesheet" href="styles/img-they-cant-wait-to-meet-you.css">
 </head>
 
 <body>
@@ -275,16 +276,22 @@
         <!--added initial html Shyshlak-->
 
         <!--Roman start working-->
-        <section>
-            <div>
-                <h2>They Can't Wait to Meet You:</h2>
-                <img src="img/img-they-cant-wait-to-meet-you/elephant.png" alt="elephant">
-                <img src="img/img-they-cant-wait-to-meet-you/giraffe.png" alt="giraffe">
-                <img src="img/img-they-cant-wait-to-meet-you/lion.png" alt="lion">
-                <img src="img/img-they-cant-wait-to-meet-you/monkey.jpg" alt="monkey">
-                <img src="img/img-they-cant-wait-to-meet-you/pretty-anilmal.jpg" alt="pretty-anilmal">
+        <section class="they-cant-wait">
+            <div class="they-cant-wait-block-wrapper">
+              <div class="they-cant-wait-inner-section">
+                <h2 class="they-cant-wait-to-meet-you">They Can't Wait to Meet You:</h2>
+                <div class="they-cant-wait-carousel-wrapper">
+                              <div class="button-slide-prev">
+                                  <img class="button-slide-prev" src="img/svg-icons/orange-arrow-left.svg" alt="Arrow left">
+                              </div>
+                              <div class="they-cant-wait-carousel-slide-container"></div>        
+                              <div class="button-slide-next">
+                                  <img class="button-slide-next" src="img/svg-icons/orange-arrow-right.svg" alt="Arrow right">
+                              </div>
+                </div>
+              </div>
             </div>
-        </section>
+          </section>
         <section>
             <div class="container">
                 <div class="block">
@@ -345,8 +352,10 @@
     </footer>
     <!--Roman ends working-->
     <script src="js/countdown.js">
+    
 
     </script>
+    <script src="js/they-cant-wait-carousel.js"></script>
 </body>
 
 </html>
