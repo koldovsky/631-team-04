@@ -51,6 +51,8 @@ grid-template-columns: 200px 200px 200px; */
     border-bottom: .1px;
     border-left: .1px;
     border-right: .1px;
+    display: block;
+    margin: 20px auto;
   }
   /* .cost { */
     /* display: flex; */
