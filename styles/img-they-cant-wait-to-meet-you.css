@@ -1,0 +1,50 @@
+.they-cant-wait-block-wrapper {
+    background:rgb(0, 0, 0);
+    padding: 0 90px 150px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+ .they-cant-wait-to-meet-you{
+    font-size: 48px;
+    color:  #f1c324;
+    line-height: 1.18;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    letter-spacing: -.021em;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.they-cant-wait-carousel-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.they-cant-wait-carousel-wrapper .they-cant-wait-carousel-slide-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.they-cant-wait-carousel-wrapper .they-cant-wait-carousel-slide-container img {
+    max-width: 250px;
+    max-height: 150px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 10px;
+}
+
+.button-slide-prev {
+    padding-top: 35px;
+}
+.button-slide-next img {
+    padding-top: 70px;
+}
+
