@@ -81,7 +81,6 @@ h1 {
 .tanzania-text {
   display: flex;
   justify-content: center;
-  margin: 20px 100px 80px 100px;
   padding-top: 50px;
   color: #fff;
   font-size: 17px;
@@ -112,6 +111,7 @@ h1 {
   font-weight: 700;
   padding-bottom: 150px;
   margin:70px, 70px;
+  text-align: center;
 }
 .info-block-elements {
 margin: 30px;
@@ -170,7 +170,10 @@ span.fade {
   }
 @media screen and (max-width: 594px) {
     .a-runs {
-      width: 350px;
+      width: 320px;
      margin:auto;
+    }
+    .block-email {
+      display:none;
     }
   }
