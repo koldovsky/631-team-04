@@ -300,9 +300,21 @@ h2#tours {
     margin-bottom: 10px;
  }
 
+ .our-tours-btn-next, .our-tours-btn-prev {
+    border-radius:50%;
+    background-color: white;
+    margin:auto;
+    opacity: .5;
+ }
+
+ .our-tours-btn-next:hover, .our-tours-btn-prev:hover {
+    border-radius:50%;
+    background-color: white;
+    margin:auto;
+    opacity: .7;
+ }
  .our-tours-carousel img {
     display: block;
-    background-color:  white;
 }
 
 .our-tours-slide-container {
