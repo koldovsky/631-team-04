@@ -9,7 +9,7 @@
         <div>
         <p class="our-tours-bold">Departing: 9 Nov 2019</p>
         <p class="our-tours-bold-yellow">Cost: $4000</p>
-        <a href="#">Learn more</a>
+        <a href="tanzania.html">Learn more</a>
         </div>
     </article>`,
     `<article class="our-tours-carousel-item">
