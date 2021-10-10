@@ -170,7 +170,16 @@ span.fade {
   }
 @media screen and (max-width: 594px) {
     .a-runs {
-      width: 320px;
+      width: 450px;
+     margin:auto;
+    }
+    .block-email {
+      display:none;
+    }
+  }
+  @media screen and (max-width: 468px) {
+    .a-runs {
+      width: 300px;
      margin:auto;
     }
     .block-email {
