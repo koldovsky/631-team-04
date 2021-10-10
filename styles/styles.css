@@ -562,6 +562,12 @@ div.contact-form-item {
   width: 100%;
 }
 
+.block-additional-services-item div:hover {
+    display: block;
+    width: 100%;
+    box-shadow: 8px 8px 10px rgba(110, 110, 110, 0.5);
+  }
+
 #services {
   color: rgb(20, 20, 20);
   font-family: Dosis;
