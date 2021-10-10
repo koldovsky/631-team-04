@@ -1,601 +1,590 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /*our customers say section*/
 :root {
- scroll-behavior:smooth; 
- text-decoration: none;
- --header-color: #f1c324;
- --p-color: #fff;
- --blue-color: rgb(36,184, 241);
+  scroll-behavior: smooth;
+  text-decoration: none;
+  --header-color: #f1c324;
+  --p-color: #fff;
+  --blue-color: rgb(36, 184, 241);
 }
 
 .our-customers-say {
-    background-color: black;
-    font-family: Roboto, sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    padding-top: 120px;
-    padding-bottom: 20px;
-
+  background-color: black;
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 120px;
+  padding-bottom: 20px;
 }
 
 .our-customers-say p {
-    color: var(--p-color);
-    padding: 30px 25px;
-    margin: 0 25px;
-    line-height: 1.5;
+  color: var(--p-color);
+  padding: 30px 25px;
+  margin: 0 25px;
+  line-height: 1.5;
 }
 
 .our-customers-say h2 {
-    color: var(--header-color);
-    font-family: Dosis, sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    padding-bottom: 25px;
-    text-align: center;
+  color: var(--header-color);
+  font-family: Dosis, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 25px;
+  text-align: center;
 }
 .our-customers-say .dots {
-    width: 40px; 
-    border-top: 6px dotted rgb(255, 255, 255);
-    margin: auto;
-    padding-bottom: 20px;
+  width: 40px;
+  border-top: 6px dotted rgb(255, 255, 255);
+  margin: auto;
+  padding-bottom: 20px;
 }
 .our-customers-say p.customer-name {
-    color: var(--header-color);
-    font-family: Dosis, sans-serif;
-    font-size: 25px;
-    font-weight: 700;
+  color: var(--header-color);
+  font-family: Dosis, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .our-customers-say div.card-container {
-    display: flex;
-    padding: 0 15px;
-
+  display: flex;
+  padding: 0 15px;
 }
 
 .our-customers-say .text {
-    background-color: rgba(255, 255, 255, 0.07);
-    text-align: center;
-    margin: 0;
-    position: relative;
+  background-color: rgba(255, 255, 255, 0.07);
+  text-align: center;
+  margin: 0;
+  position: relative;
 }
 
 .customer-say-img {
-    display: block;
-    width: 100%;
-
+  display: block;
+  width: 100%;
 }
 
 .carousel-button {
-    background-color: #e7e7e7; /* Green */
-    border: 2px solid #555555;
-    color: black;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition-duration: 0.4s;
-    cursor: pointer;
+  background-color: #e7e7e7; /* Green */
+  border: 2px solid #555555;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .carousel-button:hover {
-    background-color:white;
+  background-color: white;
 }
-
 
 .our-customers-say-carousel-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 120px;
 }
 
-@media (max-width: 980px){
-    .our-customers-say-slides-container .card-container {
-        display: flex;
-        flex-direction: column;
-    }
-    .our-customers-say-carousel-container {
-        margin: 0;
-    }
+@media (max-width: 980px) {
+  .our-customers-say-slides-container .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .our-customers-say-carousel-container {
+    margin: 0;
+  }
 }
 /* contacts section */
 .contacts {
-    background-color: black;
-    display: flex;
-    margin: auto;
-    padding-right: 120px;
+  background-color: black;
+  display: flex;
+  margin: auto;
+  padding-right: 120px;
 }
 
 .contacts .text {
-    margin-left: 120px;  
-    background-color: rgba(255, 255, 255, 0.09);
-    padding: 50px 50px 50px 50px;
-    margin-bottom: 120px;
-   
+  margin-left: 120px;
+  background-color: rgba(255, 255, 255, 0.09);
+  padding: 50px 50px 50px 50px;
+  margin-bottom: 120px;
 }
 
 .contacts h2 {
-    color: var(--header-color);
-    font-family: Dosis, sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    padding-bottom: 20px;
+  color: var(--header-color);
+  font-family: Dosis, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 20px;
 }
 .contacts div.dots {
-    width: 40px; 
-    border-top: 6px dotted rgb(255, 255, 255);
-    padding-bottom: 20px;
-    text-align: center;
-
+  width: 40px;
+  border-top: 6px dotted rgb(255, 255, 255);
+  padding-bottom: 20px;
+  text-align: center;
 }
 .contacts h3 {
-    color: var(--header-color);
-    font-family: Dosis, sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-
+  color: var(--header-color);
+  font-family: Dosis, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .contacts td {
-    color:#9e8f8f;
-    font-size: 17px;
-    font-family: Roboto, sans-serif;
-    padding: 20px 20px 20px 20px;
+  color: #9e8f8f;
+  font-size: 17px;
+  font-family: Roboto, sans-serif;
+  padding: 20px 20px 20px 20px;
 }
 
 .contacts p {
-    color:var(--p-color);
-    font-size: 20px;
-    padding: 0px 25px 25px 0px;
-    text-align: left; 
+  color: var(--p-color);
+  font-size: 20px;
+  padding: 0px 25px 25px 0px;
+  text-align: left;
 }
 
 .contacts img {
-    display: block;
-    width: 100%; 
-    margin-bottom: 120px;
+  display: block;
+  width: 100%;
+  margin-bottom: 120px;
 }
 
 @media (max-width: 980px) {
-    .contacts{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .contacts img {
-        margin-bottom: 0px;
-    }
+  .contacts {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contacts img {
+    margin-bottom: 0px;
+  }
 
-    .contacts {
-        padding-right: 30px;
-    }
-    .contacts .text {
-        margin-left: 30px;
-    }
+  .contacts {
+    padding-right: 30px;
+  }
+  .contacts .text {
+    margin-left: 30px;
+  }
 }
 /* Clock */
 .clock {
-    color: var(--p-color);
-    font-size: 40px;
-    font-family: Dosis, sans-serif;
+  color: var(--p-color);
+  font-size: 40px;
+  font-family: Dosis, sans-serif;
 }
 
 .clock-div {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px;
 }
 
 @media (max-width: 980px) {
-    .clock-div {
-        display: flex;
-        flex-direction: column;
-    }
+  .clock-div {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* footer page 1 */
 footer {
-    background-color: rgb(247, 249, 251);
-    
+  background-color: rgb(247, 249, 251);
 }
 footer div.logo {
-    display: block;
-    background-color: transparent;
-    margin: auto;
-    text-align: center;
-
+  display: block;
+  background-color: transparent;
+  margin: auto;
+  text-align: center;
 }
 
 footer p {
-    color: #141414;
-    font-family: Roboto, sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 30px;
+  color: #141414;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
 }
 
 footer .inner-container {
-    padding: 120px 120px 0px 120px; 
+  padding: 120px 120px 0px 120px;
 }
 footer .jump-links {
-    text-decoration: none;
-    text-align: center;
-    padding: 20px 20px 20px 20px;
-   
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
 }
 
 footer .jump-links a {
-    text-decoration: none;
-    text-align: center;
-    padding: 20px 10px 10px 20px;
-    color: #141414;
-    font-size: 17px;
-    font-weight: 600;
-
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 10px 10px 20px;
+  color: #141414;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 footer .jump-links a:hover {
-    color: var(--blue-color);
+  color: var(--blue-color);
 }
 
 footer .rights-reserved {
-    display: flex;
-    justify-content: center;
-    padding: 15px 15px;
-    font-size: 16px;
-    margin: auto;
-
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px;
+  font-size: 16px;
+  margin: auto;
 }
-footer .rights-reserved p{
-    padding: 0 15px;
+footer .rights-reserved p {
+  padding: 0 15px;
 }
 
 footer .footer-img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 footer .social-links {
-    display: flex;
-    justify-content: center;
-    padding:15px;
-    margin:auto;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: auto;
 }
 
 footer .social-links img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
 @media (max-width: 980px) {
-    .jump-links {
-        display: flex;
-        flex-direction: column;
-    }
+  .jump-links {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .rights-reserved {
-        display: flex;
-        flex-direction: column;
-    }
+  .rights-reserved {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* our tours section */
-section.block-our-tours, section.block-want-to-see-real-africa {
-    background-color: black;
-    padding-top: 90px;
-    padding-bottom: 70px;
+section.block-our-tours {
+  background-color: black;
+  padding-top: 90px;
 }
 
 h2#tours {
-    display: block;
-    font-size: 41px;
-    color: #f1c324;
-    font-family: Dosis;
-    text-align: center;
-    margin-bottom: 10px;
- }
+  display: block;
+  font-size: 41px;
+  color: #f1c324;
+  font-family: Dosis;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
- .our-tours-btn-next, .our-tours-btn-prev {
-    border-radius:50%;
-    background-color: white;
-    margin:auto;
-    opacity: .5;
- }
+.our-tours-btn-next,
+.our-tours-btn-prev {
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  opacity: 0.5;
+}
 
- .our-tours-btn-next:hover, .our-tours-btn-prev:hover {
-    border-radius:50%;
-    background-color: white;
-    margin:auto;
-    opacity: .7;
- }
- .our-tours-carousel img {
-    display: block;
+.our-tours-btn-next:hover,
+.our-tours-btn-prev:hover {
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  opacity: 0.7;
+}
+
+.our-tours-carousel img {
+  display: block;
 }
 
 .our-tours-slide-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .our-tours-carousel {
-   padding: 0 24px;
-   margin-top: 40px;
-   display: grid;
-   grid-template-columns: 1fr 10fr 1fr;
-   align-items:center;
+  padding: 0 24px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  align-items: center;
 }
 
 .our-tours-carousel-item {
-    padding: 0 15px;
-    display: flex;
-    flex-direction: column;
-    align-items:inherit;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+}
 
- }
+.our-tours-carousel-item img {
+  display: block;
+  width: 100%;
+}
 
-.our-tours-carousel-item img{
-    display: block;
-    width: 100%;
- }
+.our-tours-carousel-item h3 {
+  margin: 20px 0;
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  font-family: Dosis;
+}
 
- .our-tours-carousel-item h3{
-    margin: 20px 0;
-    color: rgb(255, 255, 255);
-    font-size: 23px;
-    font-family: Dosis;
- }
-
-.our-tours-description{
-    color: rgb(110, 110, 110);
-    font-size: 17px;
-    font-family: Roboto;
-    margin-top: 5px;
-    margin-bottom: 30px;
+.our-tours-description {
+  color: rgb(110, 110, 110);
+  font-size: 17px;
+  font-family: Roboto;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 .block-our-tours p.our-tours-bold {
-    color: rgb(110, 110, 110);
-    font-size: 17px;
-    font-family: Roboto;
-    font-weight: 700;
+  color: rgb(110, 110, 110);
+  font-size: 17px;
+  font-family: Roboto;
+  font-weight: 700;
 }
 
 .our-tours-bold-yellow {
-    color: rgb(241, 195, 36);
-    font-size: 17px;
-    font-family: Roboto;
-    font-weight: 700;
-    margin: 5px 0;
+  color: rgb(241, 195, 36);
+  font-size: 17px;
+  font-family: Roboto;
+  font-weight: 700;
+  margin: 5px 0;
 }
 
 .block-our-tours a {
-    display: block;
-    color: rgb(255, 255, 255);
-    font-size: 10.8px;
-    font-family: Roboto;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    margin: 20px 0 20px 0;
-    padding: 15px 17px 15px 17px;
-    width: fit-content;
-    text-decoration: none;
-    position: relative;
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 10.8px;
+  font-family: Roboto;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  margin: 20px 0 20px 0;
+  padding: 15px 17px 15px 17px;
+  width: fit-content;
+  text-decoration: none;
+  position: relative;
 }
 
 .block-our-tours a:hover {
-    color: black;
-    font-size: 10.8px;
-    font-family: Roboto;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    padding: 15px 17px 15px 17px;
-    background-color: rgb(255, 255, 255);
-    text-decoration: none;
-    display: block;
-    margin: 20px 0 20px 0;
-    width: fit-content;
+  color: black;
+  font-size: 10.8px;
+  font-family: Roboto;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  padding: 15px 17px 15px 17px;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: block;
+  margin: 20px 0 20px 0;
+  width: fit-content;
 }
 /* our tours section */
 /* real africa section */
+section.block-want-to-see-real-africa {
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 90px;
+  }
+
 .block-want-to-see-real-africa .image-tiger {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 #want-to-see-real-africa {
-    font-size: 32px;
-    color: rgb(241, 195, 36);
-    font-family: Dosis;
-    margin-bottom: 10px;
+  font-size: 32px;
+  color: rgb(241, 195, 36);
+  font-family: Dosis;
+  margin-bottom: 10px;
 }
 
-.dots-decorative-white{
-    border-top: 6px dotted rgb(255, 255, 255);
-    width: 40px;
-    margin: auto;
-    border-bottom: .1px;
-    border-left: .1px;
-    border-right: .1px;
+.dots-decorative-white {
+  border-top: 6px dotted rgb(255, 255, 255);
+  width: 40px;
+  margin: auto;
+  border-bottom: 0.1px;
+  border-left: 0.1px;
+  border-right: 0.1px;
 }
 
 .сontent-want-to-see-real-africa {
-    margin: 0 24px;
-    padding: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
-    text-align: center;
-    max-width: 100%;
-    height: 600px;
+  margin: 0 24px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  max-width: 100%;
 }
 
 @media (min-width: 800px) {
-    div.block-want-to-see-real-africa{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  div.block-want-to-see-real-africa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-    .сontent-want-to-see-real-africa {
-        margin: 0 24px;
-        padding: 50px;
-        background-color: rgba(255, 255, 255, 0.1);
-        text-align: center;
-        width: 50%;
-        margin-left: 40px;
-        margin-right: 40px;
-    }
+  .сontent-want-to-see-real-africa {
+    margin: 0 40px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 50%;
+  }
 
-    .image-tiger-container{
-        width: 50%;
-         
-    }
+  .image-tiger-container {
+    width: 50%;
+  }
 }
 
 .сontent-want-to-see-real-africa p {
-    color: rgb(110, 110, 110);
-    font-size: 19px;
-    font-family: Dosis;
-    font-weight: 500;
-    margin-top: 24px;
+  color: rgb(110, 110, 110);
+  font-size: 19px;
+  font-family: Dosis;
+  font-weight: 500;
+  margin-top: 24px;
 }
 
 .contact-form-want-to-see-real-africa {
-    margin-top: 24px;
-    max-width: 100%;
+  margin-top: 24px;
+  max-width: 100%;
 }
 
 div.contact-form-item {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
-.contact-form-item input{
-    background-color: rgba(255, 255, 255, 0.1);
-    color: rgb(110, 110, 110);
-    width: 100%;
-    height: 52px;
-    padding-left: 15px;
-    border: none;
-    box-sizing: border-box;
+.contact-form-item input {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(110, 110, 110);
+  width: 100%;
+  height: 52px;
+  padding-left: 15px;
+  border: none;
+  box-sizing: border-box;
 }
 
 .contact-form-item input[placeholder] {
-    font-size: 12px;
-    font-family: Roboto;
-    font-weight: 500;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 500;
 }
 
-.contact-form-want-to-see-real-africa button{
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-    font-family: Roboto;
-    font-weight: 700;
-    background-color: rgb(241, 195, 36);
-    text-transform: uppercase;
-    padding: 19px 21px 19px 21px;
-    width: 100%;
-    border: none;
+.contact-form-want-to-see-real-africa button {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 700;
+  background-color: rgb(241, 195, 36);
+  text-transform: uppercase;
+  padding: 19px 21px 19px 21px;
+  width: 100%;
+  border: none;
+  transition: background-color .8s;
 }
 
-.contact-form-want-to-see-real-africa button:hover{
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-    font-family: Roboto;
-    font-weight: 700;
-    background-color: var(--blue-color);
-    text-transform: uppercase;
-    padding: 19px 21px 19px 21px;
-    max-width: 100%;
-    cursor: pointer;
+.contact-form-want-to-see-real-africa button:hover {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 700;
+  background-color: var(--blue-color);
+  text-transform: uppercase;
+  padding: 19px 21px 19px 21px;
+  max-width: 100%;
+  cursor: pointer;
 }
 
 .real-africa-button {
-    margin-top: 56px;
+  margin-top: 56px;
 }
 
 /* real africa section */
 /* additional services */
-.dots-decorative{
-    border-top: 6px dotted rgb(36, 184, 241);
-    width: 40px;
-    margin: auto;
-    border-bottom: .1px;
-    border-left: .1px;
-    border-right: .1px;
+.dots-decorative {
+  border-top: 6px dotted rgb(36, 184, 241);
+  width: 40px;
+  margin: auto;
+  border-bottom: 0.1px;
+  border-left: 0.1px;
+  border-right: 0.1px;
 }
-.block-additional-services{
-    background-image: url(../img/img-additional-services/add-services-background-texture.png);
-    padding-top: 120px;
-    padding-bottom: 120px;
+.block-additional-services {
+  background-image: url(../img/img-additional-services/add-services-background-texture.png);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .block-additional-services-container {
-margin: 40px 24px;
+  margin: 40px 24px;
 }
 
-@media (min-width: 800px) { 
-    .block-additional-services-container {
-        margin: 40px 24px;
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: 1fr 1fr;
-        }
+@media (min-width: 800px) {
+  .block-additional-services-container {
+    margin: 40px 24px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-@media (min-width: 1000px) { 
-    .block-additional-services-container {
-        margin: 40px 24px;
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
+@media (min-width: 1000px) {
+  .block-additional-services-container {
+    margin: 40px 24px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 .block-additional-services-item {
-    margin-top: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-
+  margin-top: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.block-additional-services-item img{
-    display: block;
-    width: 100%;
+.block-additional-services-item img {
+  display: block;
+  width: 100%;
 }
 
-
-#services{
-    color: rgb(20, 20, 20);
-    font-family: Dosis;
-    font-size: 41px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 10px;
+#services {
+  color: rgb(20, 20, 20);
+  font-family: Dosis;
+  font-size: 41px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.additional-services-list{
-    color: rgb(20, 20, 20);
-    font-family: Dosis;
-    font-size: 23px;
-    font-weight: 700;
-    margin-top: 20px;  
+.additional-services-list {
+  color: rgb(20, 20, 20);
+  font-family: Dosis;
+  font-size: 23px;
+  font-weight: 700;
+  margin-top: 20px;
 }
 
-.additional-services-list-description{
-    color: rgb(110, 110, 110);
-    font-family: Roboto;
-    font-size: 17px;
-    font-weight: 400;
-    width: 100%;
-    margin-top: 20px;
+.additional-services-list-description {
+  color: rgb(110, 110, 110);
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  width: 100%;
+  margin-top: 20px;
 }
 /* additional services */
