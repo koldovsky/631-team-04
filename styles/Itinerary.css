@@ -18,8 +18,9 @@ background-color: #f6d3be;
  margin: auto;
  max-width: 980px;
 /* display: grid;
-grid-template-columns: 200px 200px 200px; */
-
+grid-template-columns: 200px 200px 200px;  */
+display: flex;
+justify-content: space-between;
 }
 .first-section-itinerary {
     display: grid;
@@ -54,9 +55,6 @@ grid-template-columns: 200px 200px 200px; */
     display: block;
     margin: 20px auto;
   }
-  /* .cost { */
-    /* display: flex; */
-  /* } */
  .snake-width {
   width: 100px;
 } 
@@ -64,8 +62,8 @@ grid-template-columns: 200px 200px 200px; */
     color: white;
   }
  .yellow-text {
-    color: yellow;
-    color: yellow;
+    color: #f1c324;
+    color: #f1c324;
     font-family: Dosis, serif;
     font-size: 30px;
   }
