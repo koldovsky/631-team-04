@@ -27,6 +27,13 @@
     position: relative;
 }
 
+.they-cant-wait-inner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 
 .they-cant-wait-carousel-wrapper .they-cant-wait-carousel-slide-container {
     display: flex;
@@ -34,8 +41,8 @@
 }
 
 .they-cant-wait-carousel-wrapper .they-cant-wait-carousel-slide-container img {
-    max-width: 250px;
-    max-height: 150px;
+    height: 170px;
+    width: 250px;
     object-fit: cover;
     display: inline-block;
     margin: 10px;
