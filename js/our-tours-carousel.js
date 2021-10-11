@@ -9,7 +9,7 @@
         <div>
         <p class="our-tours-bold">Departing: 9 Nov 2019</p>
         <p class="our-tours-bold-yellow">Cost: $4000</p>
-        <a href="#">Learn more</a>
+        <a href="tanzania.html">Learn more</a>
         </div>
     </article>`,
     `<article class="our-tours-carousel-item">
@@ -54,13 +54,15 @@
 
   function showCurrentSlide() {
     const slideContainer = document.querySelector(".our-tours-slide-container");
-    let html = '';
+    let html = "";
     html = ourToursSlides[currentSlide];
     if (window.innerWidth > 800) {
-      const nextSlide = currentSlide + 1 < ourToursSlides.length ? currentSlide + 1 : 0;
+      const nextSlide =
+        currentSlide + 1 < ourToursSlides.length ? currentSlide + 1 : 0;
       html += ourToursSlides[nextSlide];
       if (window.innerWidth > 1000) {
-        const next2Slide = nextSlide + 1 < ourToursSlides.length ? nextSlide + 1 : 0;
+        const next2Slide =
+          nextSlide + 1 < ourToursSlides.length ? nextSlide + 1 : 0;
         html += ourToursSlides[next2Slide];
       }
     }
@@ -81,7 +83,7 @@
 
   showCurrentSlide();
 
-  window.addEventListener('resize', showCurrentSlide);
+  window.addEventListener("resize", showCurrentSlide);
   const btnNext = document.querySelector(".our-tours-btn-next");
   btnNext.addEventListener("click", nextSlide);
 

@@ -17,15 +17,16 @@
 <body>
     <!-- start Ivan section-->
     <header>
+    <div class="h-container">
         <div class="head-line">
             <div>
-                <p>Safari Tour</p>
+                <p class="block-email">Safari Tour</p>
             </div>
             <div>
                 <a href="index.html"><img src="img/tansania-header/logo.webp" alt="logo" width="113" height="75"></a>
             </div>
             <div>
-                <p>
+                <p class="block-email">
                     <a href="http://mango-travel@email.com" class="email">
                         mango-travel@email.com
                     </a>
@@ -33,14 +34,27 @@
             </div>
         </div>
         <nav>
-            <div class="nav-button">
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Tours</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#about-us">About Us</a></li>
+                <li><a href="/#our-team">Team</a></li>
+                <li><a href="/#testimonials">Testimonials</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <!--<div class="nav-button">
                 <a href="index.html" class="link">Tours</a>
                 <a href="/#services" class="link">Services</a>
                 <a href="/#about-us" class="link">About us</a>
                 <a href="/#our-team" class="link">Team</a>
                 <a href="/#testimonials" class="link">Testimonials</a>
                 <a href="/#contacts" class="link">Contacts</a>
-            </div>
+            </div>-->
         </nav>
         <div class="animal-runs">
             <img class="a-runs" width="1150" height="383" src="img/tansania-header/animals-run.webp"
@@ -85,49 +99,30 @@
             </div>
         </div>
         <div class="info-section">
-            <div class="info-blocks">
-                <div>
-                    <div class="high-text">
-                        When?
-                    </div>
-                    <div class="low-text">
-                        <br>9 Nov 2019
-                    </div>
+            <div class="info-block">
+                <div class="info-block-elements">
+                    <div>When?</div>
+                    <div class="low-text">9 Nov 2019</div>
                 </div>
-                <div>
-                    <div class="high-text">
-                        Duration
-                    </div>
-                    <div class="low-text">
-                        <br>5 days
-                    </div>
+                <div class="info-block-elements">
+                    <div>Duration</div>
+                    <div class="low-text">5 days</div>
                 </div>
-                <div>
-                    <div class="high-text">
-                        Where to start?
-                    </div>
-                    <div class="low-text">
-                        <br> in Moshi
-                    </div>
+                <div class="info-block-elements">
+                    <div> Where to start?</div>
+                    <div class="low-text">in Moshi</div>
                 </div>
-                <div>
-                    <div class="high-text">
-                        Minimum age
-                    </div>
-                    <div class="low-text">
-                        <br> 10+
-                    </div>
+               <div class="info-block-elements">
+                    <div>Minimum age</div>
+                    <div class="low-text">10+</div>
+               </div>
+                <div class="info-block-elements">
+                    <div>People in group</div>
+                    <div class="low-text">25-40</div>
                 </div>
-                <div>
-                    <div class="high-text">
-                        People in group
-                    </div>
-                    <div class="low-text">
-                        <br> 25-40
-                    </div>
-                </div>
-            </div>
+            </div> 
         </div>
+    </div>
     </header>
     <main>
         <!--finish Ivan Section-->
@@ -257,12 +252,9 @@
         </section>
         <section class="baner">
             <div class="first-section-itinerary">
-                 <div>
+                <div class="container-itinerary"> <div>
                  <img class="snake-width" src="img/img-itinerary/ledi-photo.svg" alt="girl-africa">
-                </div>  -->
-                <div class="container-itinerary">
-                    <div>
-                        <p class="yellow-text">Cost Includes</p>
+                <p class="yellow-text">Cost Includes</p>
                         <ul class="white-text">
                             <li>Lodge safari according to the itinerary</li>
                             <li>Transportation in a 4×4 safari vehicle</li>
@@ -271,13 +263,9 @@
                             <li>Breakfasts and picnics</li>
                             <li>All mentioned activities</li>
                         </ul>
-                    </div>
-                </div>
-                <div class="cost">
+                    </div>   
                     <div>
                         <img class="snake-width" src="img/img-itinerary/saucer-red-yello.svg" alt="saucer-red-yello">
-                    </div>
-                    <div>
                         <p class="yellow-text"> Cost Excludes</p>
                         <ul class="white-text">
                             <li>Flights</li>
@@ -289,6 +277,7 @@
                         </ul>
                     </div>
                 </div>
+                
             </div>
         </section>
         <!--added initial html Shyshlak-->
