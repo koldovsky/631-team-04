@@ -13,13 +13,20 @@ display: block;
 width: 100%;
 background-color: #f6d3be;
 }
+/* .cost {
+  display: block;
+  margin: 20px auto; 
+} */
 
 .container-itinerary{
  margin: auto;
  max-width: 980px;
 /* display: grid;
-grid-template-columns: 200px 200px 200px; */
-
+grid-template-columns: 200px 200px 200px;  */
+display: flex;
+justify-content: space-between;
+padding: 40px;
+margin: auto;
 }
 .first-section-itinerary {
     display: grid;
@@ -51,10 +58,9 @@ grid-template-columns: 200px 200px 200px; */
     border-bottom: .1px;
     border-left: .1px;
     border-right: .1px;
+    display: block;
+    margin: 20px auto;
   }
-  /* .cost { */
-    /* display: flex; */
-  /* } */
  .snake-width {
   width: 100px;
 } 
@@ -62,8 +68,8 @@ grid-template-columns: 200px 200px 200px; */
     color: white;
   }
  .yellow-text {
-    color: yellow;
-    color: yellow;
+    color: #f1c324;
+    color: #f1c324;
     font-family: Dosis, serif;
     font-size: 30px;
   }
