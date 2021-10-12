@@ -72,6 +72,37 @@
     color: #f1c324;
 }
 
+.countdown {
+    font-family: Leckerli One;
+    color: white;
+    display: block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 auto;
+  }
+   
+  .countdown-number {
+    padding: 10px;
+    border-radius: 3px;
+    background: transparent;
+    display: inline-block;
+  }
+   
+  .countdown-time {
+    padding: 15px;
+    border-radius: 3px;
+    background: transparent;
+    display: inline-block;
+  }
+   
+  .countdown-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+    color: white;
+  }
+
 .big-text-align {
     text-align: center;
 }
@@ -82,7 +113,7 @@
     font-family: Leckerli One;
     font-weight: 400;
     color: var(--main-color);
-    margin-top: 270px; 
+    margin-top: 130px; 
 }
 
 .header-p {
@@ -114,6 +145,7 @@
     border-bottom: .1px;
     border-left: .1px;
     border-right: .1px;
+    background-color: transparent;
 }
 
 .align-about-learn-more {
@@ -154,6 +186,7 @@
 .button-learn-more:hover {
     background-color: var(--nav-header-and-hover-color);
     transition: 300ms;
+    color: white;
 }
 
 @media (min-width: 993px) {
@@ -168,6 +201,9 @@
     /* .main-background {
         height: 100vh;
     } */
+    .navbar-toggler-icon {
+        border-color: (255, 255, 255, 0.5);
+    }
 
     .font-style-header-name {
         display: none;
@@ -184,12 +220,12 @@
     .nav {
         display: flex;
         flex-direction: column;
-        margin-top: 115px;
+        margin-top: 215px;
     }
 
     .nav-li {
         margin: 10px auto;
-        border: 5px solid rgb(255, 255, 255, 0.5);
+        border: 5px solid var(--nav-header-and-hover-color);
         border-radius: 10%;
         width: 300px;
         text-align: center;
@@ -201,11 +237,12 @@
     }
 
     .last-link {
-        margin-bottom: 300px;
+        margin-bottom: 100px;
     }
 
     .big-text {
-        margin-top: 100px;
+        margin-top: 170px;
+        font-size: 90px;
     }
 
     /* first section */
@@ -228,6 +265,9 @@
 
     .hr-style {
         margin: 15px auto;
+    }
+    .countdown {
+        display: none;
     }
 }
 
