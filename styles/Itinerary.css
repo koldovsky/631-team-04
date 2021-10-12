@@ -13,16 +13,10 @@ display: block;
 width: 100%;
 background-color: #f6d3be;
 }
-/* .cost {
-  display: block;
-  margin: 20px auto; 
-} */
 
 .container-itinerary{
  margin: auto;
  max-width: 980px;
-/* display: grid;
-grid-template-columns: 200px 200px 200px;  */
 display: flex;
 justify-content: space-between;
 padding: 40px;
@@ -51,7 +45,6 @@ margin: auto;
 .style-img {
   display: block;
   width: 100%;
-  /* object-fit: cover; */
 }
  
   .itinerary {
@@ -59,7 +52,6 @@ margin: auto;
     text-align: center;
     font-family: Dosis, serif;
     color: white;
-    /* justify-content: space-between; */
   }
   .dotes{
     border-top: 6px dotted white;
@@ -82,4 +74,23 @@ margin: auto;
     color: #f1c324;
     font-family: Dosis, serif;
     font-size: 30px;
+  }
+  @media screen and (max-width: 930px) {
+    .container-itinerary {
+      width: 450px;
+      margin: auto;
+    }
+  }
+  @media screen and (max-width: 930px) {
+    .text {
+      width: 450px;
+      margin: auto;
+    }
+    
+  }
+  @media screen and (max-width: 930px) {
+    .first-section-itinerary {
+      width: 450px;
+      margin: auto;
+    }
   }
