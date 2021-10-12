@@ -164,6 +164,11 @@
 
 @media (max-width: 992px) {
     /* header */
+    
+    /* .main-background {
+        height: 100vh;
+    } */
+
     .font-style-header-name {
         display: none;
     }
