@@ -28,6 +28,16 @@ justify-content: space-between;
 padding: 40px;
 margin: auto;
 }
+.clock-iti {
+  font-size: 2rem;
+    font-family: Dosis, serif; 
+    font-weight: 700;
+    line-height: 0.8;
+    color: white ;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
 .first-section-itinerary {
     display: grid;
     grid-gap: 30px;
