@@ -17,9 +17,20 @@ background-color: #f6d3be;
 .container-itinerary{
  margin: auto;
  max-width: 980px;
-/* display: grid;
-grid-template-columns: 200px 200px 200px; */
-
+display: flex;
+justify-content: space-between;
+padding: 40px;
+margin: auto;
+}
+.clock-iti {
+  font-size: 2rem;
+    font-family: Dosis, serif; 
+    font-weight: 700;
+    line-height: 0.8;
+    color: white ;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
 }
 .first-section-itinerary {
     display: grid;
@@ -34,7 +45,6 @@ grid-template-columns: 200px 200px 200px; */
 .style-img {
   display: block;
   width: 100%;
-  /* object-fit: cover; */
 }
  
   .itinerary {
@@ -42,7 +52,6 @@ grid-template-columns: 200px 200px 200px; */
     text-align: center;
     font-family: Dosis, serif;
     color: white;
-    /* justify-content: space-between; */
   }
   .dotes{
     border-top: 6px dotted white;
@@ -51,10 +60,9 @@ grid-template-columns: 200px 200px 200px; */
     border-bottom: .1px;
     border-left: .1px;
     border-right: .1px;
+    display: block;
+    margin: 20px auto;
   }
-  /* .cost { */
-    /* display: flex; */
-  /* } */
  .snake-width {
   width: 100px;
 } 
@@ -62,8 +70,27 @@ grid-template-columns: 200px 200px 200px; */
     color: white;
   }
  .yellow-text {
-    color: yellow;
-    color: yellow;
+    color: #f1c324;
+    color: #f1c324;
     font-family: Dosis, serif;
     font-size: 30px;
+  }
+  @media screen and (max-width: 930px) {
+    .container-itinerary {
+      width: 450px;
+      margin: auto;
+    }
+  }
+  @media screen and (max-width: 930px) {
+    .text {
+      width: 450px;
+      margin: auto;
+    }
+    
+  }
+  @media screen and (max-width: 930px) {
+    .first-section-itinerary {
+      width: 450px;
+      margin: auto;
+    }
   }
