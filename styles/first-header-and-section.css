@@ -409,7 +409,7 @@
     line-height: 1.56;
     font-family: Roboto,sans-serif;
     word-wrap: break-word;
-    margin-left: 50px;
+    padding-left: 30px;
 }
 
 .quote-request-button {
