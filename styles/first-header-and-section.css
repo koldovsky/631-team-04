@@ -301,7 +301,7 @@
 
 .reasons-dots-white {
     width: 35px;
-    border-top: 6px dotted white;
+    border-top: 6px dotted #000;
     border-bottom: .1px;
     border-left: .1px;
     border-right: .1px;
